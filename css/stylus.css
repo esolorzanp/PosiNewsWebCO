@@ -1,5 +1,83 @@
-*{
-    margin: 0px;
-    padding: opx;
-    font-family: Arial, Helvetica, sans-serif;
+* {
+  margin: 0px;
+  padding: opx;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #efefef;
+}
+
+/** Login **/
+.login {
+  background-color: #ffffff;
+  border: 1px solid #0a4899;
+  border-radius: 12px;
+  padding: 30px 50px;
+  width: 300px;
+  height: 370px;
+  margin: 200px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.login__title {
+  text-align: center;
+  font-size: 36px;
+  /*
+    color: #fbd8fd;
+    color: #fff985;
+    color: #31af4b;
+    */
+}
+.login__title--blue {
+  color: #0a4899;
+}
+.login__title--turqoise {
+  color: #27a58e;
+}
+.login__form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+.login__label {
+}
+.login__input {
+  border-radius: 7px;
+  padding: 10px 15px;
+  border: none;
+  border-bottom: 1px solid #0a4899;
+}
+.login__input: {
+  border: none;
+  border-bottom: 1px solid #0a4899;
+}
+
+.button {
+  padding: 15px 25px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.button--primary {
+    border-color: #0a4899;
+    background-color: #0a4899;
+    color: white;
+}
+
+.button--primary:hover {
+    border-color: #0a4899;
+    background-color: lightblue;
+    color: #000000;
+}
+.button--success {
+    background-color: #27a58e;
+    color: white;
+}
+.button--ligth {
+    background-color: #efefef;
+}
+.button--ligth>:hover {
+    background-color: lightgray;
 }
