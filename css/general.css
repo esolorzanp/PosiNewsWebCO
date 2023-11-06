@@ -1,0 +1,85 @@
+* {
+  margin: 0px;
+  padding: opx;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #efefef;
+}
+
+/** Componentes generales **/
+
+/** Logo **/
+.logo {
+  font-size: 24px;
+}
+.logo__text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.logo__text--primary {
+  color: #0a4899;
+}
+.logo__text--success {
+  color: #27a58e;
+}
+.logo__text--light {
+  color: #efefef;
+}
+
+/** Fields **/
+.field {
+  display: flex;
+  flex-direction: column;
+}
+.field__label {
+  color: #0a4899;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.field__input {
+  border: none;
+  outline: none;
+  border-bottom: 0.1px solid #0a4899;
+  height: 35px;
+  font-size: 16px;
+}
+.field__input:focus {
+  border-bottom: 2px solid #0a4899;
+}
+
+/** Button **/
+.button {
+  border: none;
+  background-color: none;
+  font-size: 18px;
+  padding: 10px 25px;
+}
+.button--primary {
+  border: 1px solid #0a4899;
+  background-color: #0a4899;
+  color: #efefef;
+  font-weight: bold;
+}
+.button--primary:hover {
+  background-color: #073673;
+}
+.button--success {
+  border: 1px solid #27a58e;
+  background-color: #27a58e;
+  color: #efefef;
+}
+.button--success:hover {
+  background-color: #1f8472;
+}
+.button--ligth {
+  border: 1px solid #efefef;
+  background-color: #efefef;
+  color: #0a4899;
+}
+.button--ligth:hover {
+  background-color: #e0e0e0;
+}

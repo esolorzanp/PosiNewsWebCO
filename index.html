@@ -4,21 +4,59 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PosiNewsWebCO</title>
-    <link rel="stylesheet" href="css/stylus.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/login.css" />
   </head>
   <body>
-    <section class="login">
-      <header>
-        <h1 class="login__title logo"><span class="logo--blue">PosiNews</span><span class="logo--turquoise">WebCO</span></h1>
-      </header>
-      <form action="#" class="login__form">
-        <label for="#" class="login__label">User name</label>
-        <input type="text" class="input" placeholder="Write your user name" />
-        <label for="#" class="login__label">Password</label>
-        <input type="password" class="input" placeholder="Write your password" />
-      </form>
-      <button class="button button--primary" onclick="">Login</button>
-      <button class="button button--ligth" onclick="">Clean</button>
-    </section>
+    <main>
+      <section class="login">
+        <header class="login__logo logo">
+          <h1 class="logo__text">
+            <span class="logo__text--primary">
+              PosiNews
+            </span>
+            <span class="logo__text--success">
+              WebCO
+            </span>
+          </h1>
+        </header>
+        <form action="#" class="login__form">
+          <article class="login__form-field field">
+            <label for="#" class="field__label">
+              Username:
+            </label>
+            <input
+              type="text"
+              class="field__input"
+              id="userInput"
+              placeholder="Write your user name"
+              required
+            />
+          </article>
+          <article class="field">
+            <label for="#" class="field__label">
+              Password:
+            </label>
+            <input
+              type="password"
+              class="field__input"
+              id="passInput"
+              placeholder="Write your password"
+              required
+            />
+          </article>
+        </form>
+        <section class="login__message" id="login__message"></section>
+        <section class="login__buttons">
+          <button class="login__button button button--primary" onclick="onLogin()">
+            Login
+          </button>
+          <button class="login__button button button--ligth" onclick="onClean()">
+            Clean
+          </button>
+        </section>
+      </section>
+    </main>
   </body>
+  <script src="js/login.js"></script>
 </html>
