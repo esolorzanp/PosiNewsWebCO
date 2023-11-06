@@ -8,6 +8,18 @@ body {
   background-color: #efefef;
 }
 
+.logo {
+  text-align: center;
+  font-size: 36px;
+}
+.logo--blue {
+  color: #0a4899;
+}
+.logo--turquoise {
+  color: #27a58e;
+}
+
+
 /** Login **/
 .login {
   background-color: #ffffff;
@@ -21,21 +33,6 @@ body {
   flex-direction: column;
   justify-content: space-around;
 }
-.login__title {
-  text-align: center;
-  font-size: 36px;
-  /*
-    color: #fbd8fd;
-    color: #fff985;
-    color: #31af4b;
-    */
-}
-.login__title--blue {
-  color: #0a4899;
-}
-.login__title--turqoise {
-  color: #27a58e;
-}
 .login__form {
   display: grid;
   grid-template-columns: 1fr;
@@ -45,16 +42,23 @@ body {
 .login__label {
 }
 .login__input {
-  border-radius: 7px;
-  padding: 10px 15px;
-  border: none;
-  border-bottom: 1px solid #0a4899;
 }
-.login__input: {
-  border: none;
-  border-bottom: 1px solid #0a4899;
+.login__input:hover {
 }
 
+/** Input **/
+.input {
+  padding: 10px 0px;
+  border: none;
+  border-bottom: 1px solid #0a4899;
+  outline: none;
+}
+.input:hover {
+  border: none;
+  border-bottom: 2px solid #0a4899;
+}
+
+/** Button **/
 .button {
   padding: 15px 25px;
   font-size: 15px;
@@ -65,19 +69,21 @@ body {
     background-color: #0a4899;
     color: white;
 }
-
 .button--primary:hover {
     border-color: #0a4899;
-    background-color: lightblue;
-    color: #000000;
+    background-color: #062D60;
 }
 .button--success {
     background-color: #27a58e;
+    color: #000;
+}
+.button--success:hover {
+    background-color: #1F8472;
     color: white;
 }
 .button--ligth {
     background-color: #efefef;
 }
-.button--ligth>:hover {
-    background-color: lightgray;
+.button--ligth:hover {
+    background-color: #CCCCCC;
 }
