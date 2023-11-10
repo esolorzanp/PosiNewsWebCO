@@ -18,7 +18,7 @@ const dataBase = {
   users: [
     {
       user: "esolorzanop@estudiantes.uniajc.edu.co",
-      password: "123456",
+      password: "Solo2023",
       nombres: "Edwin",
       apellidos: "Solórzano Pardo",
     },

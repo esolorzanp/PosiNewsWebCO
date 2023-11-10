@@ -22,25 +22,27 @@
         </header>
         <form action="#" class="login__form">
           <article class="login__form-field field">
-            <label for="#" class="field__label">
+            <label for="userInput" class="field__label">
               Username:
             </label>
             <input
-              type="text"
+              type="email"
               class="field__input"
               id="userInput"
+              name="userInput"
               placeholder="Write your user name"
               required
             />
           </article>
           <article class="field">
-            <label for="#" class="field__label">
+            <label for="passInput" class="field__label">
               Password:
             </label>
             <input
               type="password"
-              class="field__input"
+              class="login__form-field field__input"
               id="passInput"
+              name="passInput"
               placeholder="Write your password"
               required
             />
@@ -48,15 +50,22 @@
         </form>
         <section class="login__message" id="login__message"></section>
         <section class="login__buttons">
-          <button class="login__button button button--primary" onclick="onLogin()">
+          <button
+            class="login__button button button--primary"
+            onclick="onLogin()"
+          >
             Login
           </button>
-          <button class="login__button button button--ligth" onclick="onClean()">
+          <button
+            class="login__button button button--ligth"
+            onclick="onClean()"
+          >
             Clean
           </button>
         </section>
       </section>
     </main>
   </body>
+  <script src="js/dataNews.js"></script>
   <script src="js/login.js"></script>
 </html>
