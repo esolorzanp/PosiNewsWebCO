@@ -21,6 +21,10 @@ const onLogin = () => {
     showError(
       `El campo "Username" supera los ${MIN_FIELD} caracteres. (Número de caracteres ingresados: ${iUser.length})`
     );
+  } else if (!containCharacters(iUser, 1, "@")) {
+    showError(
+      `El campo "Username" no corresponde a un correo electrónico o email`
+    );
   } else if (isEmpty(iPass)) {
     showError(`El campo "Password" se encuentra vacio`);
   } else if (iPass.length < MIN_FIELD) {
@@ -60,44 +64,6 @@ const onLogin = () => {
         showError(error);
       });
   }
-};
-
-const existUser = (user) => {
-  return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      if (!dataBase.users.some((u) => u.user === user)) {
-        reject("Usuario no existe");
-      } else {
-        resolve(true);
-      }
-    }, 500);
-  });
-};
-
-const validateUserPass = (user, pass) => {
-  return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      const u = dataBase.users.find((u) => u.user === user);
-      if (u.password != pass) {
-        reject("Contraseña inválida");
-      } else {
-        resolve(true);
-      }
-    }, 500);
-  });
-
-  /*
-  if (!dataBase.users.some((u) => u.user === user)) {
-    return false;
-  } else {
-    const u = dataBase.users.find((u) => u.user === user);
-    if (u.password != pass) {
-      return false;
-    } else {
-      return true;
-    }
-  }
-  */
 };
 
 const initErrorMessageSection = () => {
