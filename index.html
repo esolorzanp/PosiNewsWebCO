@@ -21,7 +21,7 @@
           </h1>
         </header>
         <form action="#" class="login__form">
-          <article class="login__form-field field">
+          <article class="login__field field">
             <label for="userInput" class="field__label">
               Username:
             </label>
@@ -34,13 +34,13 @@
               required
             />
           </article>
-          <article class="field">
+          <article class="login__field field">
             <label for="passInput" class="field__label">
               Password:
             </label>
             <input
               type="password"
-              class="login__form-field field__input"
+              class="login__field field__input"
               id="passInput"
               name="passInput"
               placeholder="Write your password"
@@ -52,14 +52,10 @@
         <section class="login__buttons">
           <button
             class="login__button button button--primary"
-            onclick="onLogin()"
           >
             Login
           </button>
-          <button
-            class="login__button button button--ligth"
-            onclick="onClean()"
-          >
+          <button class="login__button button button--ligth">
             Clean
           </button>
         </section>
