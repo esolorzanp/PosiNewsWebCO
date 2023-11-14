@@ -11,12 +11,12 @@
   background-color: #fff;
   width: 400px;
   margin: 100px auto;
-  display: flex;
+  /*display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-evenly;*/
 }
 .login__logo {
-  text-align: center;
+  /*text-align: center;*/
   height: 150px;
   line-height: 150px;
 }

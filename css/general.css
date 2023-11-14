@@ -8,7 +8,25 @@ body {
   background-color: #efefef;
 }
 
+.container {
+  width: calc(100% - 150px);
+  margin: 0 auto;
+  /*background-color: #fff;*/
+}
+
 /** Componentes generales **/
+
+/** header **/
+.header {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+}
+.header__nav {
+}
 
 /** Logo **/
 .logo {
@@ -17,7 +35,15 @@ body {
 .logo__text {
   display: flex;
   flex-direction: row;
+}
+.logo__text--centered {
   justify-content: center;
+}
+.logo__text--big {
+  font-size: 54px;
+}
+.logo__text--small {
+  font-size: 18px;
 }
 .logo__text--primary {
   color: #0a4899;
