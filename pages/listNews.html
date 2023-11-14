@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PosiNewsWebCO</title>
     <link rel="stylesheet" href="../css/general.css" />
+    <link rel="stylesheet" href="../css/listNews.css" />
   </head>
   <body>
     <main>
@@ -22,16 +23,22 @@
         </section>
       </header>
       <main>
-        <section class="container news">
-          <header class="news__header">
-            <h3>List of news</h3>
-            <section>
-              <p>Filter by</p>
-              <input type="text" placeholder="Category">
-              <input type="text" placeholder="Country">
-              <button>Search<i class="fa-solid fa-magnifying-glass"></i></button>
-            </section>
+        <section class="container list-news">
+          <header class="list-news__header">
+            <h3 class="list-news__header-title">List of news</h3>
           </header>
+          <section class="list-news__filters">
+            <label class="field__label">Filter by</label>
+            <input class="field__input" type="text" placeholder="Category" />
+            <input class="field__input" type="text" placeholder="Country" />
+            <input class="field__input" type="text" placeholder="Editorial" />
+            <button class="button button--primary">
+              Search<i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+            <button class="button button--ligth">
+              Clean<i class="fa-solid fa-broom"></i>
+            </button>
+          </section>
           <section></section>
         </section>
       </main>

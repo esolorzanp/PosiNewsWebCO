@@ -1,0 +1,31 @@
+.list-news {
+}
+.list-news__header,
+.list-news__filters {
+  border-radius: 10px;
+}
+.list-news__header {
+  background-color: #fff;
+  border: 1px solid #efefef;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.list-news__header-title {
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 36px;
+  color: #0a4899;
+  font-weight: bold;
+}
+.list-news__filters {
+  border: 1px solid #efefef;
+  background-color: #fff;
+  height: 60px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}

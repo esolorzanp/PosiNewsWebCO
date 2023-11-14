@@ -73,7 +73,8 @@ body {
   height: 35px;
   font-size: 16px;
 }
-.field__input:focus {
+.field__input:focus,
+.field__input:hover {
   border-bottom: 2px solid #0a4899;
 }
 
