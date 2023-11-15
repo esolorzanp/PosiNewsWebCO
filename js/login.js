@@ -83,7 +83,7 @@ const redirectPage = () => {
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve("pages/listNews.html");
-    }, 2500);
+    }, 2000);
   });
 };
 

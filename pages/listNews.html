@@ -23,23 +23,46 @@
         </section>
       </header>
       <main>
-        <section class="container list-news">
-          <header class="list-news__header">
-            <h3 class="list-news__header-title">List of news</h3>
+        <section class="list-news container">
+          <header class="list-news__header list-news__header--primary">
+            <h3
+              class="list-news__header-title list-news__header-title--primary"
+            >
+              List of news
+            </h3>
           </header>
           <section class="list-news__filters">
             <label class="field__label">Filter by</label>
-            <input class="field__input" type="text" placeholder="Category" />
-            <input class="field__input" type="text" placeholder="Country" />
-            <input class="field__input" type="text" placeholder="Editorial" />
-            <button class="button button--primary">
-              Search<i class="fa-solid fa-magnifying-glass"></i>
+            <input
+              class="field__input"
+              type="text"
+              id="input-category"
+              placeholder="Category"
+            />
+            <input
+              class="field__input"
+              type="text"
+              id="input-country"
+              placeholder="Country"
+            />
+            <input
+              class="field__input"
+              type="text"
+              id="input-editorial"
+              placeholder="Editorial"
+            />
+            <button class="button button--primary" id="btn-search">
+              <label for="">Search</label
+              ><i class="button__image fa-solid fa-magnifying-glass"></i>
             </button>
-            <button class="button button--ligth">
-              Clean<i class="fa-solid fa-broom"></i>
+            <button class="button button--ligth" id="btn-clean-filters">
+              Clean filters<i class="button__image fa-solid fa-broom"></i>
             </button>
           </section>
-          <section></section>
+          <section
+            class="list-news__news-table"
+            id="list-news__news-table"
+          ></section>
         </section>
       </main>
       <footer></footer>
@@ -47,6 +70,8 @@
   </body>
   <script src="../js/dataNews.js"></script>
   <script src="../js/usersApi.js"></script>
+  <script src="../js/newsApi.js"></script>
+  <script src="../js/listNews.js"></script>
   <script
     src="https://kit.fontawesome.com/2a3afbbc08.js"
     crossorigin="anonymous"

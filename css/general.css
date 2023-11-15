@@ -110,3 +110,6 @@ body {
 .button--ligth:hover {
   background-color: #e0e0e0;
 }
+.button__image{
+  margin-left: 15px;
+}
