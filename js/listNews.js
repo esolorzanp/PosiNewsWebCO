@@ -7,6 +7,74 @@ const inputEditorial = document.getElementById("input-editorial");
 const btnSearch = document.querySelector("#btn-search");
 const btnCleanFilters = document.querySelector("#btn-clean-filters");
 
+/*
+How to Bind Event Listeners to Dynamically-Created Elements in JavaScript
+https://typeofnan.dev/how-to-bind-event-listeners-on-dynamically-created-elements-in-javascript/
+*/
+const btn = document.querySelectorAll(".btn");
+console.log(`btn = ${btn}`);
+for (let i = 0, s = btn.length; i < s; i++) {
+  btn[i].addEventListener("click", (e) => {
+    if (e.target.classList.contains("btn")) {
+      //console.log(`click boton${i} ${e.target.id}`);
+      let btnId = e.target.id;
+      let r = -1;
+      switch (btnId) {
+        case "btn0":
+          r = 0;
+          break;
+        case "btn1":
+          r = 1;
+          break;
+        case "btn2":
+          r = 2;
+          break;
+        case "btn3":
+          r = 3;
+          break;
+        case "btn4":
+          r = 4;
+          break;
+        case "btn5":
+          r = 5;
+          break;
+        case "btn6":
+          r = 6;
+          break;
+        case "btn7":
+          r = 7;
+          break;
+        case "btn8":
+          r = 8;
+          break;
+        case "btn9":
+          r = 9;
+          break;
+      }
+      if (r > -1) {
+        console.log(dataResults[r].id);
+        redirectNewsDetail(dataResults[r].id).then((resp) => {
+          window.location.href= resp;
+        });
+      }
+    }
+  });
+}
+
+/***
+ * Get Parameters from URL with JavaScript: Tips and Best Practices
+ * https://makitweb.com/get-parameters-from-url-with-javascript/
+ */
+const redirectNewsDetail = (x) => {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      //resolve(`../pages/newsDetail.html`);
+      resolve(`../pages/newsDetail.html?A1="${x}"`);
+    }, 1500);
+  });
+};
+
+let dataResults = [];
 btnSearch.addEventListener("click", () => {
   const pCargando = document.createElement("p");
   pCargando.className = "cargando cargando--success";
@@ -19,8 +87,9 @@ btnSearch.addEventListener("click", () => {
   filtersNews.editorial = inputEditorial.value;
   getAllNews(filtersNews).then((resp) => {
     console.log("respuesta promise getAllNews");
-    //  console.log(resp);
-    renderTable(resp.results);
+    //console.log(resp);
+    dataResults = resp.results;
+    renderTable(dataResults);
   });
 });
 
@@ -91,8 +160,9 @@ const renderTable = (data) => {
     tdCol6.id = `tdCol6${i}`;
     document.getElementById(trRow.id).appendChild(tdCol6);
     let btnVerMas = document.createElement("button");
+    btnVerMas.id = `btn${i}`;
     btnVerMas.innerText = "View more";
-    btnVerMas.className = "button button--success";
+    btnVerMas.className = "button button--success btn";
     document.getElementById(tdCol6.id).appendChild(btnVerMas);
     i++;
   });
