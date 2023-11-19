@@ -1,4 +1,4 @@
-const CANT_X_PAGE = 10;
+const NUM_X_PAGE = 4;
 
 let totElements = dataBase.news.length;
 let pageNro = 1;
@@ -16,14 +16,13 @@ const getAllNews = (filtersNews) => {
 };
 
 const gettotPages = (cantReg) => {
-  return cantReg / CANT_X_PAGE;
+  return cantReg / NUM_X_PAGE;
 };
 
 const queryNewsByFilters = (filtersNews) => {
   const newsArray = [];
   const dataNewsArray = {
     info: {
-      //cantReg: 0,
       totPages: 0,
       totRecordsQueried: 0,
       page: 0,
@@ -35,20 +34,20 @@ const queryNewsByFilters = (filtersNews) => {
     },
     results: [],
   };
-
   dataBase.news.map((e) => {
     newsArray.push(e);
   });
-
-  for (let i = 0; i < CANT_X_PAGE; i++) {
-    let x = dataNewsArray.info.page * CANT_X_PAGE + i;
+  const j = filtersNews.page * NUM_X_PAGE;
+  const s = newsArray.length;
+  const k = j + NUM_X_PAGE < s ? j + NUM_X_PAGE : s;
+  for (let i = j; i < k || i < NUM_X_PAGE; i++) {
+    let x = dataNewsArray.info.page * NUM_X_PAGE + i;
     dataNewsArray.results.push(newsArray[x]);
   }
-  //dataNewsArray.info.cantReg = newsArray.length //dataNewsArray.results.length;
+  dataNewsArray.info.page = filtersNews.page;
   dataNewsArray.info.totRecordsQueried = newsArray.length;
   dataNewsArray.info.totPages =
-    Math.floor(dataNewsArray.info.totRecordsQueried / CANT_X_PAGE) +
-    (dataNewsArray.info.totRecordsQueried % CANT_X_PAGE > 0 ? 1 : 0);
-
+    Math.floor(dataNewsArray.info.totRecordsQueried / NUM_X_PAGE) +
+    (dataNewsArray.info.totRecordsQueried % NUM_X_PAGE > 0 ? 1 : 0);
   return dataNewsArray;
 };

@@ -361,16 +361,19 @@ const dataBase = {
       id: 18,
       fuente: "El Espectador",
       titular: "Recetas con carne: tres propuestas para tu almuerzo de hoy",
-      descripcion: "Llena de sabor este día con una deliciosa sobrebarriga, un steak pimienta o un tradicional y delicioso goulash.",
+      descripcion:
+        "Llena de sabor este día con una deliciosa sobrebarriga, un steak pimienta o un tradicional y delicioso goulash.",
       categoria: "Gastronomía y recetas",
       autor: "Anónimo",
       fecha: "9 de noviembre de 2023",
-      img: "https://www.elespectador.com/resizer/d85O7rKZe4KR3lr6l8iY8oS7HXA=/525x350/filters:quality(60):format(jpeg)/cloudfront-us-east-1.images.arcpublishing.com/elespectador/E2QULHF6ANAFVO34AF7HC246TU.jpg",
-      url: "https://www.elespectador.com/gastronomia-y-recetas/recetas-con-carne-tres-propuestas-para-tu-almuerzo-de-hoy/",
+      img:
+        "https://www.elespectador.com/resizer/d85O7rKZe4KR3lr6l8iY8oS7HXA=/525x350/filters:quality(60):format(jpeg)/cloudfront-us-east-1.images.arcpublishing.com/elespectador/E2QULHF6ANAFVO34AF7HC246TU.jpg",
+      url:
+        "https://www.elespectador.com/gastronomia-y-recetas/recetas-con-carne-tres-propuestas-para-tu-almuerzo-de-hoy/",
       pais: "Colombia",
       estado: "Quindío",
       ciudad: "Armenia",
-    },
+    } /*
     {
       id: 99,
       fuente: "Plantilla",
@@ -468,6 +471,6 @@ const dataBase = {
       pais: "",
       estado: "",
       ciudad: "",
-    },
+    },*/,
   ],
 };

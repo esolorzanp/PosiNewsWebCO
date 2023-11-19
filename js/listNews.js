@@ -1,11 +1,17 @@
 const sectionListNewsTable = document.querySelector("#list-news__news-table");
+const sectionListNewsNav = document.querySelector("#list-news__nav");
 
 const inputCategory = document.getElementById("input-category");
 const inputCountry = document.getElementById("input-country");
-const inputEditorial = document.getElementById("input-editorial");
+const inputFuente = document.getElementById("input-fuente");
 
 const btnSearch = document.querySelector("#btn-search");
 const btnCleanFilters = document.querySelector("#btn-clean-filters");
+const btnPrevious = document.getElementById("btnPrevious");
+const btnNext = document.getElementById("btnNext");
+
+let dataResults = [];
+const dataFilters = {};
 
 /*
 How to Bind Event Listeners to Dynamically-Created Elements in JavaScript
@@ -50,16 +56,57 @@ for (let i = 0, s = btn.length; i < s; i++) {
         case "btn9":
           r = 9;
           break;
+        case "btnPrevious":
+          onBtnPrevious();
+          break;
+        case "btnNext":
+          onBtnNext();
+          break;
+        default:
+          console.log("btnId = " + btnId);
+          break;
       }
       if (r > -1) {
         console.log(dataResults[r].id);
         redirectNewsDetail(dataResults[r].id).then((resp) => {
-          window.location.href= resp;
+          window.location.href = resp;
         });
       }
     }
   });
 }
+
+btnSearch.addEventListener("click", () => {
+  renderCargando();
+  dataFilters.page = 0;
+  onGetData();
+});
+
+onBtnPrevious = () => {
+  console.log("click en previous");
+  if (dataResults.info.page > 0) {
+    renderCargando();
+    dataFilters.page = dataResults.info.page - 1;
+    onGetData();
+  }
+};
+
+onBtnNext = () => {
+  console.log("click en next");
+  if (dataFilters.page < dataResults.info.totPages) {
+    renderCargando();
+    dataFilters.page = dataResults.info.page + 1;
+    onGetData();
+  }
+};
+
+btnCleanFilters.addEventListener("click", () => {
+  inputCategory.innerHTML = "";
+  inputCountry.innerHTML = "";
+  inputFuente.innerHTML = "";
+  sectionListNewsTable.innerHTML = "";
+  sectionListNewsNav.innerHTML = "";
+});
 
 /***
  * Get Parameters from URL with JavaScript: Tips and Best Practices
@@ -74,31 +121,26 @@ const redirectNewsDetail = (x) => {
   });
 };
 
-let dataResults = [];
-btnSearch.addEventListener("click", () => {
+const onGetData = () => {
+  dataFilters.category = inputCategory.value;
+  dataFilters.country = inputCountry.value;
+  dataFilters.fuente = inputFuente.value;
+  getAllNews(dataFilters).then((resp) => {
+    console.log("respuesta promise getAllNews");
+    console.log(resp);
+    dataResults = resp;
+    renderTable(dataResults.results);
+    renderTableFooter(dataResults.info);
+  });
+};
+
+const renderCargando = () => {
   const pCargando = document.createElement("p");
   pCargando.className = "cargando cargando--success";
   pCargando.innerHTML = "Loading news data ...";
   sectionListNewsTable.innerHTML = "";
   sectionListNewsTable.appendChild(pCargando);
-  const filtersNews = {};
-  filtersNews.category = inputCategory.value;
-  filtersNews.country = inputCountry.value;
-  filtersNews.editorial = inputEditorial.value;
-  getAllNews(filtersNews).then((resp) => {
-    console.log("respuesta promise getAllNews");
-    //console.log(resp);
-    dataResults = resp.results;
-    renderTable(dataResults);
-  });
-});
-
-btnCleanFilters.addEventListener("click", () => {
-  inputCategory.innerHTML = "";
-  inputCountry.innerHTML = "";
-  inputEditorial.innerHTML = "";
-  sectionListNewsTable.innerHTML = "";
-});
+};
 
 const renderTable = (data) => {
   const sectionTable = document.getElementById("list-news__news-table");
@@ -170,4 +212,27 @@ const renderTable = (data) => {
   /*
   const trRow = document.createElement("tr");
   tTable.appendChild(tTable);*/
+};
+
+const renderTableFooter = (info) => {
+  console.log("iniciando renderTableFooter...");
+  const nav = document.getElementById("list-news__nav");
+  nav.innerHTML = "";
+  if (info.page > 0) {
+    const btnPrevious = document.createElement("button");
+    btnPrevious.id = "btnPrevious";
+    btnPrevious.className = `button button--ligth btn`;
+    btnPrevious.innerHTML = `<i id="btnPrevious" class="fa-solid fa-chevron-up" style="color: #0a4899;"></i>`;
+    nav.appendChild(btnPrevious);
+  }
+  if (info.page < info.totPages - 1) {
+    const btnNext = document.createElement("button");
+    btnNext.id = "btnNext";
+    btnNext.className = `button button--ligth btn`;
+    btnNext.innerHTML = `<i id="btnNext" class="fa-solid fa-chevron-down" style="color: #0a4899;"></i>`;
+    nav.appendChild(btnNext);
+  }
+  let pTxtPage = document.createElement("p");
+  pTxtPage.innerHTML = `${info.page + 1} de ${info.totPages}`;
+  nav.appendChild(pTxtPage);
 };
