@@ -18,7 +18,7 @@ How to Bind Event Listeners to Dynamically-Created Elements in JavaScript
 https://typeofnan.dev/how-to-bind-event-listeners-on-dynamically-created-elements-in-javascript/
 */
 const btn = document.querySelectorAll(".btn");
-console.log(`btn = ${btn}`);
+//console.log(`btn = ${btn}`);
 for (let i = 0, s = btn.length; i < s; i++) {
   btn[i].addEventListener("click", (e) => {
     if (e.target.classList.contains("btn")) {
@@ -67,7 +67,7 @@ for (let i = 0, s = btn.length; i < s; i++) {
           break;
       }
       if (r > -1) {
-        console.log(dataResults[r].id);
+        //console.log(dataResults[r].id);
         redirectNewsDetail(dataResults[r].id).then((resp) => {
           window.location.href = resp;
         });
@@ -101,9 +101,9 @@ onBtnNext = () => {
 };
 
 btnCleanFilters.addEventListener("click", () => {
-  inputCategory.innerHTML = "";
-  inputCountry.innerHTML = "";
-  inputFuente.innerHTML = "";
+  inputCategory.value = "";
+  inputCountry.value = "";
+  inputFuente.value = "";
   sectionListNewsTable.innerHTML = "";
   sectionListNewsNav.innerHTML = "";
 });
@@ -127,7 +127,7 @@ const onGetData = () => {
   dataFilters.fuente = inputFuente.value;
   getAllNews(dataFilters).then((resp) => {
     console.log("respuesta promise getAllNews");
-    console.log(resp);
+    //console.log(resp);
     dataResults = resp;
     renderTable(dataResults.results);
     renderTableFooter(dataResults.info);
@@ -145,7 +145,7 @@ const renderCargando = () => {
 const renderTable = (data) => {
   const sectionTable = document.getElementById("list-news__news-table");
 
-  console.log(data);
+  //console.log(data);
 
   let tTable = document.createElement("table");
   tTable.id = "table";

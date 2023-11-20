@@ -1,11 +1,11 @@
-const NUM_X_PAGE = 4;
+const NUM_X_PAGE = 10;
 
 let totElements = dataBase.news.length;
 let pageNro = 1;
 let dataNewsQueried = {};
 
 const getAllNews = (filtersNews) => {
-  console.log(filtersNews);
+  //  console.log(filtersNews);
   return new Promise((resolve, reject) => {
     console.log("Iniciando promise getAllNews(");
     setTimeout(() => {
@@ -35,12 +35,32 @@ const queryNewsByFilters = (filtersNews) => {
     results: [],
   };
   dataBase.news.map((e) => {
-    newsArray.push(e);
+    b = false;
+    console.log(e);
+    let sCategoria = e.categoria != "" ? e.categoria.toLowerCase() : "";
+    let sCountry = e.pais != "" ? e.pais.toLowerCase() : "";
+    let sFuente = e.fuente != "" ? e.fuente.toLowerCase() : "";
+    let fCategory =
+      filtersNews.category != "" ? filtersNews.category.toLowerCase() : "";
+    let fCountry =
+      filtersNews.country != "" ? filtersNews.country.toLowerCase() : "";
+    let fFuente =
+      filtersNews.fuente != "" ? filtersNews.fuente.toLowerCase() : "";
+    if (fCategory === "" && fCountry === "" && fFuente === "") {
+      b = true;
+    } else if (
+      sCategoria.includes(fCategory) &&
+      sCountry.includes(fCountry) &&
+      sFuente.includes(fFuente)
+    ) {
+      b = true;
+    }
+    if (b) newsArray.push(e);
   });
   const j = filtersNews.page * NUM_X_PAGE;
   const s = newsArray.length;
   const k = j + NUM_X_PAGE < s ? j + NUM_X_PAGE : s;
-  for (let i = j; i < k || i < NUM_X_PAGE; i++) {
+  for (let i = j; i < k; i++) {
     let x = dataNewsArray.info.page * NUM_X_PAGE + i;
     dataNewsArray.results.push(newsArray[x]);
   }
