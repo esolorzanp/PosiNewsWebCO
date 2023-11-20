@@ -68,7 +68,8 @@ for (let i = 0, s = btn.length; i < s; i++) {
       }
       if (r > -1) {
         //console.log(dataResults[r].id);
-        redirectNewsDetail(dataResults[r].id).then((resp) => {
+        console.log(dataResults);
+        redirectNewsDetail(dataResults.results[r].id).then((resp) => {
           window.location.href = resp;
         });
       }

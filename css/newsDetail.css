@@ -1,0 +1,28 @@
+.newDetail {
+  display: flex;
+  flex-direction: column;
+}
+.newDetail__image {
+  width: 100%;
+}
+.newDetail__labelInputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+.newDetail__field {
+  display: flex;
+  flex-direction: column;
+}
+.newDetail__field--twoColumns {
+  grid-column: 1 / 3;
+}
+.newDetail__buttons {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.newDetail__button {
+  margin: 15px;
+}

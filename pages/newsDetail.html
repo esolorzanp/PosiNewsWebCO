@@ -6,6 +6,7 @@
     <title>PosiNewsWebCO</title>
     <link rel="stylesheet" href="../css/general.css" />
     <link rel="stylesheet" href="../css/listNews.css" />
+    <link rel="stylesheet" href="../css/newsDetail.css" />
   </head>
   <body>
     <main>
@@ -23,14 +24,73 @@
         </section>
       </header>
       <main>
-        <section class="list-news container">
+        <section class="newsDetail list-news container">
           <header class="list-news__header list-news__header--primary">
             <h3
               class="list-news__header-title list-news__header-title--primary"
             >
-              Aqui estamos
+              News detail
             </h3>
           </header>
+          <section class="newDetail__form">
+            <header>
+              <img
+                class="newDetail__image"
+                src="https://placehold.co/600x400"
+                alt=""
+              />
+            </header>
+            <section class="newDetail__labelInputs">
+              <p class="newDetail__field">
+                <label for="inpId">id</label>
+                <input type="text" name="" id="inpId" />
+              </p>
+              <p class="newDetail__field">
+                <label for="inpFuente">Fuente</label>
+                <input type="text" name="" id="inpFuente" />
+              </p>
+              <p class="newDetail__field newDetail__field--twoColumns">
+                <label for="inpTitular">Titular</label>
+                <input type="text" name="" id="inpTitular" />
+              </p>
+              <p class="newDetail__field">
+                <label for="inpDescripcion">Descripción</label>
+                <input type="text" name="" id="inpDescripcion" />
+              </p>
+              <p class="newDetail__field">
+                <label for="inpAutor">Autor</label>
+                <input type="text" name="" id="inpAutor" />
+              </p>
+              <p class="newDetail__field">
+                <label for="inpFecha">Fecha</label>
+                <input type="text" name="" id="inpFecha" />
+              </p>
+              <p class="newDetail__field">
+                <label for="inpCategoria">Categroria</label>
+                <input type="text" name="" id="inpCategoria" />
+              </p>
+              <p class="newDetail__field">
+                <label for="inpUrl">Url</label>
+                <input type="text" name="" id="inpUrl" />
+              </p>
+              <p class="newDetail__field">
+                <label for="inpPais">Pais</label>
+                <input type="text" name="" id="inpPais" />
+              </p>
+              <p class="newDetail__field">
+                <label for="inpEstado">Estado</label>
+                <input type="text" name="" id="inpEstado" />
+              </p>
+              <p class="newDetail__field">
+                <label for="inpCiudad">Ciudad</label>
+                <input type="text" name="" id="inpCiudad" />
+              </p>
+            </section>
+          </section>
+          <section class="newDetail__buttons">
+            <button class="newDetail__button button button--primary">Update</button>
+            <button class="newDetail__button button button--ligth">Return</button>
+          </section>
           <!--
           <section class="list-news__filters">
             <label class="field__label">Filter by</label>
@@ -73,7 +133,6 @@
   <script src="../js/dataNews.js"></script>
   <script src="../js/usersApi.js"></script>
   <script src="../js/newsApi.js"></script>
-  <script src="../js/listNews.js"></script>
   <script
     src="https://kit.fontawesome.com/2a3afbbc08.js"
     crossorigin="anonymous"
