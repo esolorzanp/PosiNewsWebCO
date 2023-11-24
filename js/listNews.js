@@ -117,7 +117,7 @@ const redirectNewsDetail = (x) => {
   return new Promise((resolve) => {
     setTimeout(() => {
       //resolve(`../pages/newsDetail.html`);
-      resolve(`../pages/newsDetail.html?A1="${x}"`);
+      resolve(`../pages/newsDetail.html?n1=${x}`);
     }, 1500);
   });
 };
