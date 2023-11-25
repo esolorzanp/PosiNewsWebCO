@@ -18,11 +18,9 @@ How to Bind Event Listeners to Dynamically-Created Elements in JavaScript
 https://typeofnan.dev/how-to-bind-event-listeners-on-dynamically-created-elements-in-javascript/
 */
 const btn = document.querySelectorAll(".btn");
-//console.log(`btn = ${btn}`);
 for (let i = 0, s = btn.length; i < s; i++) {
   btn[i].addEventListener("click", (e) => {
     if (e.target.classList.contains("btn")) {
-      //console.log(`click boton${i} ${e.target.id}`);
       let btnId = e.target.id;
       let r = -1;
       switch (btnId) {
@@ -67,8 +65,6 @@ for (let i = 0, s = btn.length; i < s; i++) {
           break;
       }
       if (r > -1) {
-        //console.log(dataResults[r].id);
-        console.log(dataResults);
         redirectNewsDetail(dataResults.results[r].id).then((resp) => {
           window.location.href = resp;
         });
@@ -78,13 +74,16 @@ for (let i = 0, s = btn.length; i < s; i++) {
 }
 
 btnSearch.addEventListener("click", () => {
+  onSearch();
+});
+
+const onSearch = () => {
   renderCargando();
   dataFilters.page = 0;
   onGetData();
-});
+};
 
 onBtnPrevious = () => {
-  console.log("click en previous");
   if (dataResults.info.page > 0) {
     renderCargando();
     dataFilters.page = dataResults.info.page - 1;
@@ -93,7 +92,6 @@ onBtnPrevious = () => {
 };
 
 onBtnNext = () => {
-  console.log("click en next");
   if (dataFilters.page < dataResults.info.totPages) {
     renderCargando();
     dataFilters.page = dataResults.info.page + 1;
@@ -116,7 +114,8 @@ btnCleanFilters.addEventListener("click", () => {
 const redirectNewsDetail = (x) => {
   return new Promise((resolve) => {
     setTimeout(() => {
-      //resolve(`../pages/newsDetail.html`);
+      sessionStorage.setItem("news", JSON.stringify(dataBase.news));
+      sessionStorage.setItem("success", JSON.stringify(false));
       resolve(`../pages/newsDetail.html?n1=${x}`);
     }, 1500);
   });
@@ -128,7 +127,6 @@ const onGetData = () => {
   dataFilters.fuente = inputFuente.value;
   getAllNews(dataFilters).then((resp) => {
     console.log("respuesta promise getAllNews");
-    //console.log(resp);
     dataResults = resp;
     renderTable(dataResults.results);
     renderTableFooter(dataResults.info);
@@ -145,8 +143,6 @@ const renderCargando = () => {
 
 const renderTable = (data) => {
   const sectionTable = document.getElementById("list-news__news-table");
-
-  //console.log(data);
 
   let tTable = document.createElement("table");
   tTable.id = "table";
@@ -237,3 +233,35 @@ const renderTableFooter = (info) => {
   pTxtPage.innerHTML = `${info.page + 1} de ${info.totPages}`;
   nav.appendChild(pTxtPage);
 };
+
+if (sessionStorage.success !== undefined) {
+  if (sessionStorage.success) {
+    if (sessionStorage.news !== undefined) {
+      console.log("recupera news desde listNews...");
+      const newSt = JSON.parse(sessionStorage.getItem("news"));
+      dataBase.news = newSt.map((n) => {
+        const newT = {};
+        newT.id = Number.parseInt(n.id);
+        newT.fuente = n.fuente;
+        newT.titular = n.titular;
+        newT.descripcion = n.descripcion;
+        newT.categoria = n.categoria;
+        newT.autor = n.autor;
+        newT.fecha = n.fecha;
+        newT.img = n.img;
+        newT.url = n.url;
+        newT.palabrasClave = n.palabrasClave;
+        newT.pais = n.pais;
+        newT.estado = n.estado;
+        newT.ciudad = n.ciudad;
+        return newT;
+      });
+    }
+    sessionStorage.setItem("success", false);
+  }
+}
+
+onSearch();
+
+//console.log(JSON.parse(sessionStorage.getItem("news")));
+//console.log(JSON.parse(sessionStorage.getItem("success")));

@@ -1,6 +1,29 @@
 const inputs = document.querySelectorAll(".field__input");
 const buttons = document.querySelectorAll(".button");
 
+if (sessionStorage.news !== undefined) {
+  console.log("recupera news desde newDetail...");
+  const newSt = JSON.parse(sessionStorage.getItem("news"));
+  dataBase.news = newSt.map((n) => {
+    const newT = {};
+    newT.id = Number.parseInt(n.id);
+    newT.fuente = n.fuente;
+    newT.titular = n.titular;
+    newT.descripcion = n.descripcion;
+    newT.categoria = n.categoria;
+    newT.autor = n.autor;
+    newT.fecha = n.fecha;
+    newT.img = n.img;
+    newT.url = n.url;
+    newT.palabrasClave = n.palabrasClave;
+    newT.pais = n.pais;
+    newT.estado = n.estado;
+    newT.ciudad = n.ciudad;
+    return newT;
+  });
+  console.log(dataBase.news);
+}
+
 const readParamNewId = () => {
   const pageUrl = window.location.search;
   const urlParams = new URLSearchParams(pageUrl);
@@ -10,7 +33,7 @@ const readParamNewId = () => {
     newId = urlParams.get(paramId);
   }
 
-  return dataBase.news.find((e) => e.id == newId);
+  return getById(newId);
 };
 
 buttons.forEach((b) => {
@@ -30,57 +53,114 @@ buttons.forEach((b) => {
 
 const onUpdate = () => {
   console.log("dentro onUpdate...");
+  const ind = getIndexofById(newsReaded.id);
+  inputs.forEach((e) => {
+    const id = e.id;
+    const inp = document.getElementById(id);
+    switch (id) {
+      case "inpId":
+        newsReaded.id = inp.value;
+        break;
+      case "inpFuente":
+        newsReaded.fuente = inp.value;
+        break;
+      case "inpTitular":
+        newsReaded.titular = inp.value;
+        break;
+      case "inpDescripcion":
+        newsReaded.descripcion = inp.value;
+        break;
+      case "inpAutor":
+        newsReaded.autor = inp.value;
+        break;
+      case "inpFecha":
+        newsReaded.fecha = inp.value;
+        break;
+      case "inpCategoria":
+        newsReaded.categoria = inp.value;
+        break;
+      case "inpUrl":
+        newsReaded.url = inp.value;
+        break;
+      case "inpPais":
+        newsReaded.pais = inp.value;
+        break;
+      case "inpEstado":
+        newsReaded.estado = inp.value;
+        break;
+      case "inpCiudad":
+        newsReaded.ciudad = inp.value;
+        break;
+    }
+  });
+  if (set(ind, newsReaded)) {
+    renderMessageConfirm();
+    //console.log(dataBase.news[ind]);
+  }
 };
+
 const onReturn = () => {
   //console.log("dentro onReturn...");
   window.location.href = "../pages/listNews.html";
 };
 
-const newReaded = readParamNewId();
+const newsReaded = readParamNewId();
 
 inputs.forEach((e) => {
-  console.log("recorre inputs...");
+  //console.log("recorre inputs...");
   const id = e.id;
   const inp = document.getElementById(id);
   const imgNew = document.getElementById("imgNewDetail");
-  imgNew.src = newReaded.img;
+  imgNew.src = newsReaded.img;
   switch (id) {
     case "inpId":
-      inp.value = newReaded.id;
+      inp.value = newsReaded.id;
       break;
     case "inpFuente":
-      inp.value = newReaded.fuente;
+      inp.value = newsReaded.fuente;
       break;
     case "inpTitular":
-      inp.value = newReaded.titular;
+      inp.value = newsReaded.titular;
       break;
     case "inpDescripcion":
-      inp.value = newReaded.descripcion;
+      inp.value = newsReaded.descripcion;
       break;
     case "inpAutor":
-      inp.value = newReaded.autor;
+      inp.value = newsReaded.autor;
       break;
     case "inpFecha":
-      inp.value = newReaded.fecha;
+      inp.value = newsReaded.fecha;
       break;
     case "inpCategoria":
-      inp.value = newReaded.categoria;
+      inp.value = newsReaded.categoria;
       break;
     case "inpUrl":
-      inp.value = newReaded.url;
+      inp.value = newsReaded.url;
       break;
     case "inpPais":
-      inp.value = newReaded.pais;
+      inp.value = newsReaded.pais;
       break;
     case "inpEstado":
-      inp.value = newReaded.estado;
+      inp.value = newsReaded.estado;
       break;
     case "inpCiudad":
-      inp.value = newReaded.ciudad;
+      inp.value = newsReaded.ciudad;
       break;
   }
 });
 
-console.log(inputs);
+renderMessageError = () => {};
+
+renderMessageConfirm = () => {
+  let pShowMessages = document.getElementById("show-messages");
+  let pMessage = document.createElement("p");
+  pMessage.className = "";
+  pMessage.innerHTML = "Registro actualizado correctamente";
+  pShowMessages.appendChild(pMessage);
+};
+
+//console.log(JSON.parse(sessionStorage.news));
+//console.log(JSON.parse(sessionStorage.success));
+//console.log(inputs);
 //console.log(buttons);
-//console.log(newReaded);
+//console.log(newsReaded);
