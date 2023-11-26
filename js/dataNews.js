@@ -236,7 +236,7 @@ const dataBase = {
       ciudad: "Santiago de Cali",
     },
     {
-      id: 11,
+      id: 12,
       fuente: "El Espectador",
       titular:
         "Hachiko: la conmovedora y triste historia del perro más fiel del mundo",
@@ -254,7 +254,7 @@ const dataBase = {
       ciudad: "Tokio",
     },
     {
-      id: 12,
+      id: 13,
       fuente: "El Espectador",
       titular: "Transición energética: limpia, segura y con enfoque humano",
       descripcion:
@@ -271,7 +271,7 @@ const dataBase = {
       ciudad: "Medellín",
     },
     {
-      id: 13,
+      id: 14,
       fuente: "El Espectador",
       titular:
         "Esta es la receta para cocinar una deliciosa cazuela de fríjoles con pollo",
@@ -289,7 +289,7 @@ const dataBase = {
       ciudad: "Bogota D.C.",
     },
     {
-      id: 14,
+      id: 15,
       fuente: "El Espectador",
       titular: "El impacto de internet en la vida diaria",
       descripcion:
@@ -306,7 +306,7 @@ const dataBase = {
       ciudad: "Tuenti",
     },
     {
-      id: 15,
+      id: 16,
       fuente: "El Espectador",
       titular: "Instagram habilita un “botón antiacoso” ¿Cómo funciona?",
       descripcion:
@@ -323,7 +323,7 @@ const dataBase = {
       ciudad: "",
     },
     {
-      id: 16,
+      id: 17,
       fuente: "El Espectador",
       titular:
         "Voces de autoridad: mujeres en cargos directivos en hoteles de Bogotá",
@@ -341,7 +341,7 @@ const dataBase = {
       ciudad: "Bogotá D.C.",
     },
     {
-      id: 17,
+      id: 18,
       fuente: "El Espectador",
       titular: "Prepara coliflor gratinada con esta sencilla receta",
       descripcion:
@@ -358,7 +358,7 @@ const dataBase = {
       ciudad: "Pereira",
     },
     {
-      id: 18,
+      id: 19,
       fuente: "El Espectador",
       titular: "Recetas con carne: tres propuestas para tu almuerzo de hoy",
       descripcion:
@@ -375,7 +375,344 @@ const dataBase = {
       ciudad: "Armenia",
     },
     {
-      id: 99,
+      id: 20,
+      fuente: "El Tiempo",
+      titular:
+        "Luis Díaz, clave en crucial empate de Liverpool contra el City: fundamental en el gol",
+      descripcion:
+        "Luis Díaz ingresó en el segundo tiempo ante la mirada de su papá Luis Manuel, quien fue al Etihad.",
+      categoria: "Deportes",
+      autor: "Harold Yepes Izquierdo",
+      fecha: "25-11-2023",
+      img:
+        "https://www.eltiempo.com/files/article_main_1200/uploads/2023/11/25/6562077facdf2.jpeg",
+      url:
+        "https://www.eltiempo.com/deportes/futbol-internacional/luis-diaz-fue-clave-en-empate-1-1-entre-liverpool-vs-city-su-papa-fue-al-estadio-829372",
+      pais: "England",
+      estado: "North Wset England",
+      ciudad: "Liverpool",
+    },
+    {
+      id: 21,
+      fuente: "El tiempo",
+      titular:
+        "Primer crucero en Buenaventura: lo que comieron y visitaron los turistas alemanes",
+      descripcion:
+        "Uno de los guías explica a EL TIEMPO las actividades que realizaron. 'Estuvieron felices', dijo.",
+      categoria: "Viajar",
+      autor: "Camilo Andrés Peña Castañeda",
+      fecha: "25-11-2023",
+      img:
+        "https://www.eltiempo.com/files/article_main_1200/uploads/2023/11/24/6561092095469.jpeg",
+      url:
+        "https://www.eltiempo.com/vida/viajar/primer-crucero-en-buenaventura-lo-que-comieron-y-visitaron-los-turistas-alemanes-829210",
+      pais: "Colombia",
+      estado: "Valle del Cauca",
+      ciudad: "Buenaventura",
+    },
+    {
+      id: 22,
+      fuente: "El Tiempo",
+      titular:
+        "La decisión que tomó esta ciudad de Estados Unidos para ayudar a los migrantes",
+      descripcion:
+        "Chicago comenzó a trasladar a los inmigrantes que dormían en la vía pública",
+      categoria: "Inmigración",
+      autor: "Ignacio Díaz",
+      fecha: "24-11-2023",
+      img:
+        "https://www.eltiempo.com/files/image_950_534/uploads/2019/12/27/5e0619c0efe59.jpeg",
+      url:
+        "https://www.eltiempo.com/mundo/eeuu-y-canada/la-decision-que-tomo-esta-ciudad-de-estados-unidos-para-ayudar-a-los-migrantes-829140",
+      palabrasClave: ["Estados Unidos", "Inmigrantes", "Chicago", "Refugios"],
+      pais: "Estados Unidos",
+      estado: "Illinois",
+      ciudad: "Chicago",
+    },
+    {
+      id: 23,
+      fuente: "El Tiempo",
+      titular:
+        "Forma correcta de consumir cúrcuma: ¿como especia en la comida o suplemento dietario?",
+      descripcion:
+        "Se obtienen todos los beneficios de la cúrcuma al consumirla pura, más que en suplementos.",
+      categoria: "Salud",
+      autor: "Luz Angela Dominguez Coral",
+      fecha: "23-11-2023",
+      img:
+        "https://www.eltiempo.com/files/article_main_1200/uploads/2023/11/23/655f615c2a51f.jpeg",
+      url:
+        "https://www.eltiempo.com/salud/forma-correcta-de-consumir-curcuma-como-especia-en-la-comida-o-suplemento-dietario-828624",
+      palabrasClave: ["Salud", "Cúrcuma", "Vida", "Alimentación"],
+      pais: "Colombia",
+      estado: "Valle del Cauca",
+      ciudad: "Cali",
+    },
+    {
+      id: 24,
+      fuente: "El Tiempo",
+      titular:
+        "Los 10 beneficios de los arándanos en nuestra salud: ¿cada cuánto comerlos?",
+      descripcion:
+        "El consumo de esta fruta silvestre trae múltiples ventajas para su salud, según los expertos.",
+      categoria: "Salud",
+      autor: "Alejandro Victoria Tobón",
+      fecha: "24-11-2023",
+      img:
+        "https://www.eltiempo.com/files/article_main_1200/uploads/2022/11/17/6376a9544f68b.jpeg",
+      url:
+        "https://www.eltiempo.com/salud/los-10-beneficios-de-los-arandanos-en-nuestra-salud-como-comerlos-correctamente-829028",
+      palabrasClave: [
+        "Salud",
+        "Vida",
+        "Arándanos",
+        "Nutrición",
+        "Alimentación",
+        "Frutas",
+      ],
+      pais: "Colombia",
+      estado: "Antioquia",
+      ciudad: "Medellín",
+    },
+    {
+      id: 25,
+      fuente: "El Tiempo",
+      titular:
+        "¿Va a viajar? Esta es la guía para consultar si hay retrasos en su vuelo",
+      descripcion:
+        "Ante los problemas que se han presentado en el Aeropuerto El Dorado, estas son algunas sugerencias.",
+      categoria: "Viajar",
+      autor: "Redacción El Tiempo",
+      fecha: "25-11-2023",
+      img:
+        "https://www.eltiempo.com/files/article_main_1200/uploads/2023/11/21/655cd940038b4.jpeg",
+      url:
+        "https://www.eltiempo.com/vida/viajar/va-a-viajar-esta-es-la-guia-para-consultar-si-hay-retrasos-en-su-vuelo-829267",
+      palabrasClave: ["Viajar", "Vuelos", "Turismo", "Retrasos", "Aeropuerto"],
+      pais: "Colombia",
+      estado: "Bogotá D.C.",
+      ciudad: "Bogotá D.C.",
+    },
+    {
+      id: 26,
+      fuente: "El Tiempo",
+      titular: "Medellín transforma la educación con tecnología",
+      descripcion:
+        "A la fecha, la Alcaldía de Medellín ha entregado 130.000 computadores de punta a estudiantes.",
+      categoria: "Educación",
+      autor: "Mas contenido",
+      fecha: "16-11-2023",
+      img:
+        "https://www.eltiempo.com/files/article_main_1200/uploads/2023/11/15/65559eae3b46b.jpeg",
+      url:
+        "https://www.eltiempo.com/mas-contenido/medellin-transforma-la-educacion-con-tecnologia-826295",
+      palabrasClave: [
+        "Educación",
+        "Tecnología",
+        "Medellín",
+        "Alcaldía de Medellín",
+      ],
+      pais: "Colombia",
+      estado: "Antioquia",
+      ciudad: "Medellín",
+    },
+    {
+      id: 27,
+      fuente: "El Tiempo",
+      titular:
+        "Tome nota de estas recomendaciones para ahorrar dinero y eliminar gastos innecesarios",
+      descripcion:
+        "Las condiciones de vida de una persona mejoran en el momento en el que sabe administrar su dinero.",
+      categoria: "Finanzas Personales",
+      autor: "Lady Daniela Ortiz Góngora",
+      fecha: "25-11-2023",
+      img:
+        "https://www.eltiempo.com/files/article_main_1200/uploads/2023/05/24/646eb480994a0.jpeg",
+      url:
+        "https://www.eltiempo.com/economia/finanzas-personales/como-ahorrar-dinero-identificando-gastos-que-puede-eliminar-829196",
+      palabrasClave: ["Economia", "Finanzas", "Ahorro", "Gastos"],
+      pais: "Colombia",
+      estado: "Risaralda",
+      ciudad: "Pereira",
+    },
+    {
+      id: 28,
+      fuente: "El Tiempo",
+      titular:
+        "Así puede viajar por Colombia a fin de año desde 1.000 pesos: le contamos",
+      descripcion:
+        "Son muchas las empresas que buscan fidelizar a sus clientes y lanzan promociones imperdibles.",
+      categoria: "Gente",
+      autor: "Tania Alejandra Hernández Torres",
+      fecha: "",
+      img:
+        "https://www.eltiempo.com/files/article_main_1200/uploads/2023/11/24/656146c09b492.jpeg",
+      url:
+        "https://www.eltiempo.com/cultura/gente/asi-puede-viajar-por-colombia-con-solo-1-000-pesos-829301",
+      palabrasClave: ["Gente", "Viajar", "Bajo costo"],
+      pais: "Colombia",
+      estado: "Antioquia",
+      ciudad: "Medellín",
+    },
+    {
+      id: 29,
+      fuente: "El Espectador",
+      titular:
+        "Así ha crecido la oferta para los nómadas digitales en el mundo",
+      descripcion:
+        "El número de destinos que ofrecen visados ha aumentado considerablemente en los últimos años, y hoy en día casi la mitad los ofrecen por al menos un año.",
+      categoria: "Turismo",
+      autor: "Redacción Turismo",
+      fecha: "26-11-2023",
+      img:
+        "https://www.elespectador.com/resizer/wTbNc1A-3mmYC_0YMfdZnOwyvHA=/525x350/filters:quality(60):format(jpeg)/cloudfront-us-east-1.images.arcpublishing.com/elespectador/C3JAFBGDHBEJLGFSZU6ZELPLUI.jpg",
+      url:
+        "https://www.elespectador.com/turismo/asi-ha-crecido-la-oferta-para-los-nomadas-digitales-en-el-mundo/",
+      palabrasClave: ["Turismo", "Nomadas", "Trabajo digital", "Exterior"],
+      pais: "Colombia",
+      estado: "Valle del Cauda",
+      ciudad: "Cali",
+    },
+    {
+      id: 30,
+      fuente: "El Espectador",
+      titular:
+        "¿Por qué en Colombia se toma mal café cuando se produce uno de excelente calidad?",
+      descripcion:
+        "La mayor parte del café colombiano se exporta, mientras que nacionalmente se consumen mezclas de menor calidad. Le contamos de qué está hecho el tinto que se toma en el país.",
+      categoria: "Economía",
+      autor: "Maria Camila Ramírez Cañón",
+      fecha: "26-11-2023",
+      img:
+        "https://www.elespectador.com/resizer/3XeHRQVewCqNou61uhb8eGTxI9k=/525x350/filters:quality(60):format(jpeg)/cloudfront-us-east-1.images.arcpublishing.com/elespectador/OCYWQLSG7BEJFGDMVYMIJ2NWDU.jpg",
+      url:
+        "https://www.elespectador.com/economia/finanzas-personales/por-que-en-colombia-se-toma-mal-cafe-cuando-se-produce-uno-de-excelente-calidad-noticias-hoy/",
+      palabrasClave: ["Cafe", "Consumo", "Gente"],
+      pais: "Colombia",
+      estado: "Bogota D.C.",
+      ciudad: "Bogota D.C.",
+    },
+    {
+      id: 31,
+      fuente: "Portafolio",
+      titular:
+        "Las cinco reglas de oro para lograr la estabilidad financiera al cierre de año",
+      descripcion:
+        "Una de las recomendaciones es ir ahorrando de manera paulatina.",
+      categoria: "Ahorro",
+      autor: "Portafolio",
+      fecha: "25-11-2023",
+      img:
+        "https://www.portafolio.co/files/article_new_multimedia/uploads/2023/11/21/655d5c4920f11.jpeg",
+      url:
+        "https://www.portafolio.co/mis-finanzas/ahorro/estabilidad-financiera-las-cinco-reglas-de-oro-para-tener-una-buena-salud-financiera-592764",
+      palabrasClave: ["Ahorro", "Economía", "Finanzas personales"],
+      pais: "Colombia",
+      estado: "Valle del Cauca",
+      ciudad: "Cali",
+    },
+    {
+      id: 32,
+      fuente: "Portafolio",
+      titular:
+        "¿Qué es el abono inteligente?: así puede pagar más rápido su crédito de vivienda",
+      descripcion:
+        "En el mercado existen algunas alternativas que permiten acelerar ese proceso. Le contamos cuáles son y lo que debe tener en cuenta.",
+      categoria: "Vivienda",
+      autor: "Portafolio",
+      fecha: "26-11-2023",
+      img:
+        "https://www.portafolio.co/files/main_video_image/uploads/2023/11/24/6560c68b9a26a.jpeg",
+      url:
+        "https://www.portafolio.co/mis-finanzas/vivienda/abono-inteligente-como-puede-usarlo-para-pagar-mas-rapido-su-credito-de-vivienda-592971",
+      palabrasClave: ["Vivienda", "Ahorro", "Crédito hipotecario"],
+      pais: "Colombia",
+      estado: "Antioquia",
+      ciudad: "Medellín",
+    },
+    {
+      id: 33,
+      fuente: "Portafolio",
+      titular:
+        "Fondo Mujer Emprende ha beneficiado a más de 15 mil mujeres emprendedoras del país",
+      descripcion:
+        "La participación femenina en proyectos de emprendimiento ha incrementado 15 puntos porcentuales frente a los datos registrados durante el año 2021.",
+      categoria: "Créditos",
+      autor: "Portafolio",
+      fecha: "25-11-2023",
+      img:
+        "https://www.portafolio.co/files/article_new_multimedia/uploads/2023/11/15/65559745afde2.jpeg",
+      url:
+        "https://www.portafolio.co/mis-finanzas/creditos/fondo-mujer-emprende-ha-beneficiado-a-mas-de-15-mil-mujeres-emprendedoras-del-pais-593050",
+      palabrasClave: ["Crédito", "Vivienda", "Fondo", "Mujer"],
+      pais: "Colombia",
+      estado: "Antioquia",
+      ciudad: "Medellín",
+    },
+    {
+      id: 34,
+      fuente: "Portafolio",
+      titular:
+        "Diez consejos para resguardar datos de manera segura y efectiva",
+      descripcion:
+        "Se recomienda crear una copia de seguridad  y hacer una revisión periódica a la información.",
+      categoria: "Tecnología",
+      autor: "Portafolio",
+      fecha: "26-11-2023",
+      img:
+        "https://www.portafolio.co/files/article_new_multimedia/uploads/2023/11/21/655d6a258a870.jpeg",
+      url:
+        "https://www.portafolio.co/tecnologia/como-proteger-sus-datos-personales-y-los-de-su-empresa-592766",
+      palabrasClave: ["Backup", "Información personal", "Tecnología"],
+      pais: "Colombia",
+      estado: "Bogota D.C.",
+      ciudad: "Bogota D.C.",
+    },
+    {
+      id: 35,
+      fuente: "Portafolio",
+      titular:
+        "¿Buscando trabajo en el exterior para hacerlo remoto? 'Tips' para conseguirlo fácil",
+      descripcion:
+        "En el contexto del trabajo remoto, este tipo de vacantes suelen ser más atractivas debido a los beneficios que ofrecen. Tenga en cuenta estos 'tips'.",
+      categoria: "Empleo",
+      autor: "Portafolio",
+      fecha: "23-11-2023",
+      img:
+        "https://www.portafolio.co/files/article_new_multimedia/uploads/2023/11/23/655fd2d75e09e.jpeg",
+      url:
+        "https://www.portafolio.co/economia/empleo/claves-a-tener-en-cuenta-a-la-hora-de-postularse-a-trabajos-en-el-exterior-592927",
+      palabrasClave: ["Empleo", "Exterior", "Teletrabajo", "Remoto"],
+      pais: "Colombia",
+      estado: "Bogota D.C.",
+      ciudad: "Bogota D.C.",
+    },
+    {
+      id: 36,
+      fuente: "Portafolio",
+      titular:
+        "La universidad colombiana que podrá entregar certificación internacional de inglés",
+      descripcion:
+        "Firmó un convenio con Pearson con el cual se incorpora a la red de centros autorizados para administrar estas autorizaciones. Vea de qué se trata.",
+      categoria: "Innovación",
+      autor: "Portafolio",
+      fecha: "25-11-2023",
+      img:
+        "https://www.portafolio.co/files/article_new_multimedia/files/crop/uploads/2023/11/25/65623fc2d5c22.r_1700937678296.141-0-539-300.jpeg",
+      url:
+        "https://www.portafolio.co/innovacion/la-universidad-colombiana-que-podra-entregar-certificacion-internacional-de-ingles-593041",
+      palabrasClave: [
+        "Innovación",
+        "Certificación",
+        "Inglés",
+        "Reconocimiento",
+      ],
+      pais: "Colombia",
+      estado: "Valle del Cauda",
+      ciudad: "Cali",
+    },
+    {
+      id: 37,
       fuente: "Plantilla",
       titular: "",
       descripcion: "",
@@ -384,12 +721,13 @@ const dataBase = {
       fecha: "",
       img: "",
       url: "",
+      palabrasClave: [],
       pais: "",
       estado: "",
       ciudad: "",
     },
     {
-      id: 99,
+      id: 38,
       fuente: "Plantilla",
       titular: "",
       descripcion: "",
@@ -398,12 +736,13 @@ const dataBase = {
       fecha: "",
       img: "",
       url: "",
+      palabrasClave: [],
       pais: "",
       estado: "",
       ciudad: "",
     },
     {
-      id: 99,
+      id: 39,
       fuente: "Plantilla",
       titular: "",
       descripcion: "",
@@ -412,12 +751,13 @@ const dataBase = {
       fecha: "",
       img: "",
       url: "",
+      palabrasClave: [],
       pais: "",
       estado: "",
       ciudad: "",
     },
     {
-      id: 99,
+      id: 40,
       fuente: "Plantilla",
       titular: "",
       descripcion: "",
@@ -426,12 +766,13 @@ const dataBase = {
       fecha: "",
       img: "",
       url: "",
+      palabrasClave: [],
       pais: "",
       estado: "",
       ciudad: "",
     },
     {
-      id: 99,
+      id: 41,
       fuente: "Plantilla",
       titular: "",
       descripcion: "",
@@ -440,12 +781,13 @@ const dataBase = {
       fecha: "",
       img: "",
       url: "",
+      palabrasClave: [],
       pais: "",
       estado: "",
       ciudad: "",
     },
     {
-      id: 99,
+      id: 42,
       fuente: "Plantilla",
       titular: "",
       descripcion: "",
@@ -454,12 +796,13 @@ const dataBase = {
       fecha: "",
       img: "",
       url: "",
+      palabrasClave: [],
       pais: "",
       estado: "",
       ciudad: "",
     },
     {
-      id: 99,
+      id: 43,
       fuente: "Plantilla",
       titular: "",
       descripcion: "",
@@ -468,6 +811,112 @@ const dataBase = {
       fecha: "",
       img: "",
       url: "",
+      palabrasClave: [],
+      pais: "",
+      estado: "",
+      ciudad: "",
+    },
+    {
+      id: 44,
+      fuente: "Plantilla",
+      titular: "",
+      descripcion: "",
+      categoria: "",
+      autor: "",
+      fecha: "",
+      img: "",
+      url: "",
+      palabrasClave: [],
+      pais: "",
+      estado: "",
+      ciudad: "",
+    },
+    {
+      id: 45,
+      fuente: "Plantilla",
+      titular: "",
+      descripcion: "",
+      categoria: "",
+      autor: "",
+      fecha: "",
+      img: "",
+      url: "",
+      palabrasClave: [],
+      pais: "",
+      estado: "",
+      ciudad: "",
+    },
+    {
+      id: 46,
+      fuente: "Plantilla",
+      titular: "",
+      descripcion: "",
+      categoria: "",
+      autor: "",
+      fecha: "",
+      img: "",
+      url: "",
+      palabrasClave: [],
+      pais: "",
+      estado: "",
+      ciudad: "",
+    },
+    {
+      id: 47,
+      fuente: "Plantilla",
+      titular: "",
+      descripcion: "",
+      categoria: "",
+      autor: "",
+      fecha: "",
+      img: "",
+      url: "",
+      palabrasClave: [],
+      pais: "",
+      estado: "",
+      ciudad: "",
+    },
+    {
+      id: 48,
+      fuente: "Plantilla",
+      titular: "",
+      descripcion: "",
+      categoria: "",
+      autor: "",
+      fecha: "",
+      img: "",
+      url: "",
+      palabrasClave: [],
+      pais: "",
+      estado: "",
+      ciudad: "",
+    },
+    {
+      id: 49,
+      fuente: "Plantilla",
+      titular: "",
+      descripcion: "",
+      categoria: "",
+      autor: "",
+      fecha: "",
+      img: "",
+      url: "",
+      palabrasClave: [],
+      pais: "",
+      estado: "",
+      ciudad: "",
+    },
+    {
+      id: 50,
+      fuente: "Plantilla",
+      titular: "",
+      descripcion: "",
+      categoria: "",
+      autor: "",
+      fecha: "",
+      img: "",
+      url: "",
+      palabrasClave: [],
       pais: "",
       estado: "",
       ciudad: "",
