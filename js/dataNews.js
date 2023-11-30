@@ -45,7 +45,7 @@ const dataBase = {
         "El volante colombiano tendría más opciones de jugar y además recuperaría la número ‘10′.",
       categoria: "Deportes",
       autor: "Redacción Deportes",
-      fecha: "2 de noviembre de 2023",
+      fecha: "2023-11-02",
       img:
         "https://www.semana.com/resizer/Outy7Vo-JsGnrxGcAa7Ddcj1Qu8=/1280x720/smart/filters:format(jpg):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/semana/IAU3SDKELJGH3M3YRYVP3AT4ZU.jpg",
       url:
@@ -64,7 +64,7 @@ const dataBase = {
         "Estos residuos tienen propiedades que pueden aprovecharse de varias formas. Una de ellas, abonar el jardín.",
       categoria: "Salud",
       autor: "Redacción Cómo",
-      fecha: "3 de noviembre de 2023",
+      fecha: "2023-11-03",
       img:
         "https://www.semana.com/resizer/lYU6vWLYdOzfr3uXUdE9Bf_HpOk=/1280x720/smart/filters:format(jpg):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/semana/L3OVGK7PLFB7HDWRYGIR3EGTY4.jpg",
       url:
@@ -82,7 +82,7 @@ const dataBase = {
         "La santandereana Constructora Marval obtuvo el máximo galardón en los Premios Empresario Colombiano 2023 de la Universidad del Rosario. Tres jóvenes líderes también sobresalieron por su empuje.",
       categoria: "Premios",
       autor: "Redacción Economía",
-      fecha: "3 de noviembre de 2023",
+      fecha: "2023-11-03",
       img:
         "https://www.semana.com/resizer/gFh23bc-mqOi7URJiwpkrQbCtbo=/1280x720/smart/filters:format(jpg):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/semana/7MRH3MHN6ZFWPL3V3KS2IK747M.jpg",
       url:
@@ -100,7 +100,7 @@ const dataBase = {
         "La buena noticia va de la mano con el incremento en las exportaciones del grano.",
       categoria: "Agro",
       autor: "Redacción Economía",
-      fecha: "3 de noviembre de 2023",
+      fecha: "2023-11-03",
       img:
         "https://www.semana.com/resizer/QqFUN2BD73TFdhhANWbSr49FIZg=/1280x720/smart/filters:format(jpg):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/semana/GJNJYOINKZHCTBIAGUTQAU6JGU.jpg",
       url:
@@ -118,7 +118,7 @@ const dataBase = {
         "El proceso de selección final le compete única y exclusivamente al empresario.",
       categoria: "Economía",
       autor: "Redacción Economía",
-      fecha: "3 de noviembre de 2023",
+      fecha: "2023-11-03",
       img:
         "https://www.semana.com/resizer/eEvkUrtxeAu1mGwr_fM9jwSqWqo=/1280x720/smart/filters:format(jpg):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/semana/YUKIGIGCCBBXDNSXZA455NVDRU.jpg",
       url:
@@ -136,7 +136,7 @@ const dataBase = {
         "El vigente campeón volvió a mostrar su poderío en el circuito de Interlagos.",
       categoria: "Deportes",
       autor: "Redacción Deportes",
-      fecha: "3 de noviembre de 2023",
+      fecha: "2023--11-03",
       img:
         "https://www.semana.com/resizer/H_QW1spYh9iWjnJrzhqvjWM_3yY=/1280x720/smart/filters:format(jpg):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/semana/BR2HTOLUJBBODM55RWTRNX5JSQ.png",
       url:
@@ -154,7 +154,7 @@ const dataBase = {
         "A través del programa Aflora, la Fundación Bolívar Davivienda trabaja por contribuir al empoderamiento de las organizaciones sociales desde lo económico y la autogestión. Anualmente se les reconoce el esfuerzo en un encuentro que este año contará con el reconocido emprendedor social Miquel de Paladella.",
       categoria: "Desarrollo social",
       autor: "Redacción Semana",
-      fecha: "3 de noviembre de 2023",
+      fecha: "2023-11-03",
       img:
         "https://www.semana.com/resizer/_s3fVO6M54GyTUBLK2k6ka0JYQw=/1280x720/smart/filters:format(jpg):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/semana/U4NAXLHZGBEILJ3QV2MOG2KFX4.jpeg",
       url:
@@ -172,7 +172,7 @@ const dataBase = {
         "Hace 40 años, Miguel Merino, trajo a Colombia la franquicia estadounidense. Hoy, se ha consolidado como una marca apreciada por los colombianos y una de las primeras oportunidades de empleo para muchos jóvenes.",
       categoria: "Empresas",
       autor: "Redacción Semana",
-      fecha: "3 de noviembre de 2023",
+      fecha: "2023-11-03",
       img:
         "https://www.semana.com/resizer/_s3fVO6M54GyTUBLK2k6ka0JYQw=/1280x720/smart/filters:format(jpg):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/semana/U4NAXLHZGBEILJ3QV2MOG2KFX4.jpeg",
       url:
@@ -190,7 +190,7 @@ const dataBase = {
         "Le contamos cuál es el paso a paso para ocultar su dirección IP en una llamada.",
       categoria: "Whatsapp",
       autor: "Nataly Barrera Perico",
-      fecha: "9 de noviembre de 2023",
+      fecha: "2023-11-09",
       img:
         "https://www.eltiempo.com/files/article_main_1200/uploads/2023/08/24/64e7f657d514a.jpeg",
       url:
@@ -208,7 +208,7 @@ const dataBase = {
         "Para obtener los beneficios del café hay que consumirlo con moderación.",
       categoria: "Café",
       autor: "Luz Angela Dominguez Coral",
-      fecha: "8 de noviembre de 2023",
+      fecha: "2023-11-08",
       img:
         "https://www.eltiempo.com/files/article_main_1200/uploads/2023/11/08/654bd08de4d48.jpeg",
       url:
@@ -226,7 +226,7 @@ const dataBase = {
         "Apple lanzo su nuevo MacBook apenas diez meses después del MacBook Pro M2 Max. Los nuevos dispositivos cuentan con los nuevos chips de la marca: el M3, el M3 Pro y el M3 Max.",
       categoria: "Tecnología",
       autor: "Alejandro Victoria Tobón",
-      fecha: "9 de noviembre de 2023",
+      fecha: "2023-11-09",
       img:
         "https://www.eltiempo.com/files/article_main_1200/uploads/2023/11/08/654bf8484fbea.png",
       url:
@@ -244,7 +244,7 @@ const dataBase = {
         "Se conmemoran 100 años de la historia de Hachiko, el perro más fiel del mundo. El canino, de raza akita inu, nació el 10 de noviembre de 1923 y murió el 8 de marzo de 1935.",
       categoria: "Perros",
       autor: "La Red Zoocial y Agencia AFP",
-      fecha: "9 de noviembre de 2023",
+      fecha: "2023-11-09",
       img:
         "https://www.elespectador.com/resizer/IisiXX7KcustWZzc_Dme_fMFeD0=/525x350/filters:quality(60):format(jpeg)/cloudfront-us-east-1.images.arcpublishing.com/elespectador/IILFGLWTM5A3TAJYSWHDQFX334.jpg",
       url:
@@ -261,7 +261,7 @@ const dataBase = {
         "Potenciar las energías renovables, diversificar la matriz eléctrica y disminuir el impacto ambiental son algunos de los retos y las grandes acciones de Empresas Públicas de Medellín (EPM).",
       categoria: "Especiales",
       autor: "Redacción Especiales",
-      fecha: "5 de noviembre de 2023",
+      fecha: "2023-11-05",
       img:
         "https://www.elespectador.com/resizer/5P5UI5uWY4kvf8rkEEUkbkZ7kAM=/525x350/filters:quality(60):format(jpeg)/cloudfront-us-east-1.images.arcpublishing.com/elespectador/3DALDFMX3VHUZINTPAPCLBS2CU.jpeg",
       url:
@@ -279,7 +279,7 @@ const dataBase = {
         "Decora con hojitas de cilantro y acompañar con una buena arepa blanca.",
       categoria: "Gastronomía",
       autor: "Mónica Díaz",
-      fecha: "9 de noviembre de 2023",
+      fecha: "2023-11-09",
       img:
         "https://www.elespectador.com/resizer/xfocR_OhHIJ9JkH2mQIpsoZD8s4=/525x350/filters:quality(60):format(jpeg)/cloudfront-us-east-1.images.arcpublishing.com/elespectador/JS42OKV6YZDHFGD4YAYOHFIMUE.jpg",
       url:
@@ -296,7 +296,7 @@ const dataBase = {
         "El desarrollo de internet ha puesto en marcha un debate sobre el modo en el que la comunicación, a través de la web, afecta las relaciones sociales.",
       categoria: "Emprendimiento y liderazgo",
       autor: "Zaryn Dentzel",
-      fecha: "9 de noviembre de 2023",
+      fecha: "2023-11-09",
       img:
         "https://www.elespectador.com/resizer/go5bd75IV4WSYdKbcft1yeObff0=/525x350/filters:quality(60):format(jpeg)/cloudfront-us-east-1.images.arcpublishing.com/elespectador/AD6YDSALXBB6DCUCU66745BQ2A.jpg",
       url:
@@ -313,7 +313,7 @@ const dataBase = {
         "De momento la función solo está disponible en Francia. Sin embargo, de resultar exitosa, podría extenderse a otros países del mundo.",
       categoria: "Tecnología",
       autor: "Agencia AFP",
-      fecha: "9 de noviembre de 2023",
+      fecha: "2023-11-09",
       img:
         "https://www.elespectador.com/resizer/jIBtPJmL6TwWYm9fkpRY8S9Rmxo=/525x350/filters:quality(60):format(jpeg)/cloudfront-us-east-1.images.arcpublishing.com/elespectador/II2G65RJXRH27EQ37RX3H6UMDA.jpg",
       url:
@@ -331,7 +331,7 @@ const dataBase = {
         "Cifras de la importancia de la mujer en el sector turístico y experiencias de cuatro gerentes en la capital colombiana.",
       categoria: "Turismo",
       autor: "Maria Alejandra Castaño Carmona",
-      fecha: "8 de noviembre de 2023",
+      fecha: "2023-11-08",
       img:
         "https://www.elespectador.com/resizer/VJm58FmmkHLVy0cRlRPxCq7ifrU=/525x350/filters:quality(60):format(jpeg)/cloudfront-us-east-1.images.arcpublishing.com/elespectador/3T3CJHZ66ZAUREFB3GTCZQVCFE.png",
       url:
@@ -348,7 +348,7 @@ const dataBase = {
         "El queso parmesano será el mejor aliado en esta preparación. ¡Exquisita!",
       categoria: "Gastronomía y Recetas",
       autor: "Camila Gómez D'Eltorre",
-      fecha: "9 de noviembre de 2023",
+      fecha: "2023-11-09",
       img:
         "https://www.elespectador.com/resizer/DSAgmo6E0M5KnGvg-kmZDwxWAco=/525x350/filters:quality(60):format(jpeg)/cloudfront-us-east-1.images.arcpublishing.com/elespectador/2GLOOCTYCBBINIJ7ZP4UFG6QSA.jpg",
       url:
@@ -365,7 +365,7 @@ const dataBase = {
         "Llena de sabor este día con una deliciosa sobrebarriga, un steak pimienta o un tradicional y delicioso goulash.",
       categoria: "Gastronomía y recetas",
       autor: "Anónimo",
-      fecha: "9 de noviembre de 2023",
+      fecha: "2023-11-09",
       img:
         "https://www.elespectador.com/resizer/d85O7rKZe4KR3lr6l8iY8oS7HXA=/525x350/filters:quality(60):format(jpeg)/cloudfront-us-east-1.images.arcpublishing.com/elespectador/E2QULHF6ANAFVO34AF7HC246TU.jpg",
       url:
@@ -383,7 +383,7 @@ const dataBase = {
         "Luis Díaz ingresó en el segundo tiempo ante la mirada de su papá Luis Manuel, quien fue al Etihad.",
       categoria: "Deportes",
       autor: "Harold Yepes Izquierdo",
-      fecha: "25-11-2023",
+      fecha: "2023-11-25",
       img:
         "https://www.eltiempo.com/files/article_main_1200/uploads/2023/11/25/6562077facdf2.jpeg",
       url:
@@ -401,7 +401,7 @@ const dataBase = {
         "Uno de los guías explica a EL TIEMPO las actividades que realizaron. 'Estuvieron felices', dijo.",
       categoria: "Viajar",
       autor: "Camilo Andrés Peña Castañeda",
-      fecha: "25-11-2023",
+      fecha: "2023-11-25",
       img:
         "https://www.eltiempo.com/files/article_main_1200/uploads/2023/11/24/6561092095469.jpeg",
       url:
@@ -419,7 +419,7 @@ const dataBase = {
         "Chicago comenzó a trasladar a los inmigrantes que dormían en la vía pública",
       categoria: "Inmigración",
       autor: "Ignacio Díaz",
-      fecha: "24-11-2023",
+      fecha: "2023-11-24",
       img:
         "https://www.eltiempo.com/files/image_950_534/uploads/2019/12/27/5e0619c0efe59.jpeg",
       url:
@@ -438,7 +438,7 @@ const dataBase = {
         "Se obtienen todos los beneficios de la cúrcuma al consumirla pura, más que en suplementos.",
       categoria: "Salud",
       autor: "Luz Angela Dominguez Coral",
-      fecha: "23-11-2023",
+      fecha: "2023-11-23",
       img:
         "https://www.eltiempo.com/files/article_main_1200/uploads/2023/11/23/655f615c2a51f.jpeg",
       url:
@@ -457,7 +457,7 @@ const dataBase = {
         "El consumo de esta fruta silvestre trae múltiples ventajas para su salud, según los expertos.",
       categoria: "Salud",
       autor: "Alejandro Victoria Tobón",
-      fecha: "24-11-2023",
+      fecha: "2023-11-24",
       img:
         "https://www.eltiempo.com/files/article_main_1200/uploads/2022/11/17/6376a9544f68b.jpeg",
       url:
@@ -483,7 +483,7 @@ const dataBase = {
         "Ante los problemas que se han presentado en el Aeropuerto El Dorado, estas son algunas sugerencias.",
       categoria: "Viajar",
       autor: "Redacción El Tiempo",
-      fecha: "25-11-2023",
+      fecha: "2023-11-25",
       img:
         "https://www.eltiempo.com/files/article_main_1200/uploads/2023/11/21/655cd940038b4.jpeg",
       url:
@@ -501,7 +501,7 @@ const dataBase = {
         "A la fecha, la Alcaldía de Medellín ha entregado 130.000 computadores de punta a estudiantes.",
       categoria: "Educación",
       autor: "Mas contenido",
-      fecha: "16-11-2023",
+      fecha: "2023-11-16",
       img:
         "https://www.eltiempo.com/files/article_main_1200/uploads/2023/11/15/65559eae3b46b.jpeg",
       url:
@@ -525,7 +525,7 @@ const dataBase = {
         "Las condiciones de vida de una persona mejoran en el momento en el que sabe administrar su dinero.",
       categoria: "Finanzas Personales",
       autor: "Lady Daniela Ortiz Góngora",
-      fecha: "25-11-2023",
+      fecha: "2023-11-25",
       img:
         "https://www.eltiempo.com/files/article_main_1200/uploads/2023/05/24/646eb480994a0.jpeg",
       url:
@@ -544,7 +544,7 @@ const dataBase = {
         "Son muchas las empresas que buscan fidelizar a sus clientes y lanzan promociones imperdibles.",
       categoria: "Gente",
       autor: "Tania Alejandra Hernández Torres",
-      fecha: "",
+      fecha: "2023-11-26",
       img:
         "https://www.eltiempo.com/files/article_main_1200/uploads/2023/11/24/656146c09b492.jpeg",
       url:
@@ -563,7 +563,7 @@ const dataBase = {
         "El número de destinos que ofrecen visados ha aumentado considerablemente en los últimos años, y hoy en día casi la mitad los ofrecen por al menos un año.",
       categoria: "Turismo",
       autor: "Redacción Turismo",
-      fecha: "26-11-2023",
+      fecha: "2023-11-26",
       img:
         "https://www.elespectador.com/resizer/wTbNc1A-3mmYC_0YMfdZnOwyvHA=/525x350/filters:quality(60):format(jpeg)/cloudfront-us-east-1.images.arcpublishing.com/elespectador/C3JAFBGDHBEJLGFSZU6ZELPLUI.jpg",
       url:
@@ -582,7 +582,7 @@ const dataBase = {
         "La mayor parte del café colombiano se exporta, mientras que nacionalmente se consumen mezclas de menor calidad. Le contamos de qué está hecho el tinto que se toma en el país.",
       categoria: "Economía",
       autor: "Maria Camila Ramírez Cañón",
-      fecha: "26-11-2023",
+      fecha: "2023-11-26",
       img:
         "https://www.elespectador.com/resizer/3XeHRQVewCqNou61uhb8eGTxI9k=/525x350/filters:quality(60):format(jpeg)/cloudfront-us-east-1.images.arcpublishing.com/elespectador/OCYWQLSG7BEJFGDMVYMIJ2NWDU.jpg",
       url:
@@ -601,7 +601,7 @@ const dataBase = {
         "Una de las recomendaciones es ir ahorrando de manera paulatina.",
       categoria: "Ahorro",
       autor: "Portafolio",
-      fecha: "25-11-2023",
+      fecha: "2023-11-25",
       img:
         "https://www.portafolio.co/files/article_new_multimedia/uploads/2023/11/21/655d5c4920f11.jpeg",
       url:
@@ -620,7 +620,7 @@ const dataBase = {
         "En el mercado existen algunas alternativas que permiten acelerar ese proceso. Le contamos cuáles son y lo que debe tener en cuenta.",
       categoria: "Vivienda",
       autor: "Portafolio",
-      fecha: "26-11-2023",
+      fecha: "2023-11-26",
       img:
         "https://www.portafolio.co/files/main_video_image/uploads/2023/11/24/6560c68b9a26a.jpeg",
       url:
@@ -639,7 +639,7 @@ const dataBase = {
         "La participación femenina en proyectos de emprendimiento ha incrementado 15 puntos porcentuales frente a los datos registrados durante el año 2021.",
       categoria: "Créditos",
       autor: "Portafolio",
-      fecha: "25-11-2023",
+      fecha: "2023-11-25",
       img:
         "https://www.portafolio.co/files/article_new_multimedia/uploads/2023/11/15/65559745afde2.jpeg",
       url:
@@ -658,7 +658,7 @@ const dataBase = {
         "Se recomienda crear una copia de seguridad  y hacer una revisión periódica a la información.",
       categoria: "Tecnología",
       autor: "Portafolio",
-      fecha: "26-11-2023",
+      fecha: "2023-11-26",
       img:
         "https://www.portafolio.co/files/article_new_multimedia/uploads/2023/11/21/655d6a258a870.jpeg",
       url:
@@ -677,7 +677,7 @@ const dataBase = {
         "En el contexto del trabajo remoto, este tipo de vacantes suelen ser más atractivas debido a los beneficios que ofrecen. Tenga en cuenta estos 'tips'.",
       categoria: "Empleo",
       autor: "Portafolio",
-      fecha: "23-11-2023",
+      fecha: "2023-11-23",
       img:
         "https://www.portafolio.co/files/article_new_multimedia/uploads/2023/11/23/655fd2d75e09e.jpeg",
       url:
@@ -696,7 +696,7 @@ const dataBase = {
         "Firmó un convenio con Pearson con el cual se incorpora a la red de centros autorizados para administrar estas autorizaciones. Vea de qué se trata.",
       categoria: "Innovación",
       autor: "Portafolio",
-      fecha: "25-11-2023",
+      fecha: "2023-11-25",
       img:
         "https://www.portafolio.co/files/article_new_multimedia/files/crop/uploads/2023/11/25/65623fc2d5c22.r_1700937678296.141-0-539-300.jpeg",
       url:
@@ -713,165 +713,243 @@ const dataBase = {
     },
     {
       id: 37,
-      fuente: "Plantilla",
-      titular: "",
-      descripcion: "",
-      categoria: "",
-      autor: "",
-      fecha: "",
-      img: "",
-      url: "",
-      palabrasClave: [],
-      pais: "",
-      estado: "",
-      ciudad: "",
+      fuente: "Revista Semana",
+      titular:
+        "¿Le gustaría trabajar en otro país? Esta agencia de empleo conecta a los colombianos con ofertas laborales en todo el mundo",
+      descripcion:
+        "La Agencia Transnacional de Empleo de Compensar ha logrado que 39 jóvenes del país ingresen a empresas en Canadá, Alemania y México. Así funciona.",
+      categoria: "Empleo",
+      autor: "Redacción Semana",
+      fecha: "2023-11-27",
+      img:
+        "https://www.semana.com/resizer/751KYAnPdxGx8qsaR9f0DrfdEnk=/1280x720/smart/filters:format(jpg):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/semana/RHL3FBPPLBBJFEHTB5Z4JJEVZA.jpg",
+      url:
+        "https://www.semana.com/hablan-las-marcas/articulo/le-gustaria-trabajar-en-otro-pais-esta-agencia-de-empleo-conecta-a-los-colombianos-con-ofertas-laborales-en-todo-el-mundo/202344/",
+      palabrasClave: ["Empleo", "Trabajo remoto", "Exterior"],
+      pais: "Colombia",
+      estado: "Bogota D.C.",
+      ciudad: "Bogota D.C.",
     },
     {
       id: 38,
-      fuente: "Plantilla",
-      titular: "",
-      descripcion: "",
-      categoria: "",
-      autor: "",
-      fecha: "",
-      img: "",
-      url: "",
-      palabrasClave: [],
-      pais: "",
-      estado: "",
-      ciudad: "",
+      fuente: "Revista Semana",
+      titular: "Así es el mejor lugar para trabajar en Colombia",
+      descripcion:
+        "El Banco de Occidente ocupa el primer lugar del ranking de las empresas de mayor tamaño del país que realiza Great Place to Work. El centro de su estrategia laboral han sido sus colaboradores, a quienes les ofrece múltiples beneficios para que crezcan profesional y personalmente.",
+      categoria: "Great Place to Work",
+      autor: "Redacción Semana",
+      fecha: "2023-11-29",
+      img:
+        "https://www.semana.com/resizer/AU5qR2pMPLKy2N8-_Zm9gkneZKw=/1280x720/smart/filters:format(jpg):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/semana/5FAMUJATBBCWJE7JILEEXSQE3M.jpeg",
+      url:
+        "https://www.semana.com/hablan-las-marcas/articulo/asi-es-el-mejor-lugar-para-trabajar-en-colombia/202356/",
+      palabrasClave: ["Vida", "Trabajo", "Great place"],
+      pais: "Colombia",
+      estado: "Antioquia",
+      ciudad: "Medellín",
     },
     {
       id: 39,
       fuente: "Plantilla",
-      titular: "",
-      descripcion: "",
-      categoria: "",
-      autor: "",
-      fecha: "",
-      img: "",
-      url: "",
-      palabrasClave: [],
-      pais: "",
-      estado: "",
-      ciudad: "",
+      titular:
+        "Esta es la universidad que transforma estudiantes en emprendedores visionarios",
+      descripcion:
+        "Experiencias internacionales y la posibilidad de participar en grandes investigaciones son parte de la oferta de valor de la Facultad de Administración, Finanzas y Ciencias Económicas de la Universidad Ean. Una institución que forma profesionales con visión empresarial.",
+      categoria: "Especial Universidades y colegios",
+      autor: "Redacción Semana",
+      fecha: "2023-11-24",
+      img:
+        "https://www.semana.com/resizer/OiiEWiVclLfjoCTQzAsaZj1ZQVA=/1280x720/smart/filters:format(jpg):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/semana/YISL25ITPJEYXPYGJ5OOU7AQ4M.jpg",
+      url:
+        "https://www.semana.com/hablan-las-marcas/articulo/esta-es-la-universidad-que-transforma-estudiantes-en-emprendedores-visionarios/202316/",
+      palabrasClave: [
+        "Educación",
+        "Visionarios",
+        "Emprendedores",
+        "Estudiantes",
+      ],
+      pais: "Colombia",
+      estado: "Valle del Cauca",
+      ciudad: "Cali",
     },
     {
       id: 40,
-      fuente: "Plantilla",
-      titular: "",
-      descripcion: "",
-      categoria: "",
-      autor: "",
-      fecha: "",
-      img: "",
-      url: "",
-      palabrasClave: [],
-      pais: "",
-      estado: "",
-      ciudad: "",
+      fuente: "Portafolio",
+      titular:
+        "¿Buscando trabajo en el exterior para hacerlo remoto? 'Tips' para conseguirlo fácil",
+      descripcion:
+        "En el contexto del trabajo remoto, este tipo de vacantes suelen ser más atractivas debido a los beneficios que ofrecen. Tenga en cuenta estos 'tips'.",
+      categoria: "Empleo",
+      autor: "Portafolio Redacción",
+      fecha: "2023-11-23",
+      img:
+        "https://www.portafolio.co/files/article_new_multimedia/uploads/2023/11/23/655fd2d75e09e.jpeg",
+      url:
+        "https://www.portafolio.co/economia/empleo/claves-a-tener-en-cuenta-a-la-hora-de-postularse-a-trabajos-en-el-exterior-592927",
+      palabrasClave: [
+        "Exterior",
+        "Empleo en el extranjero",
+        "Empleo",
+        "Extranjero",
+      ],
+      pais: "Colombia",
+      estado: "Atlántico",
+      ciudad: "Barranquilla",
     },
     {
       id: 41,
-      fuente: "Plantilla",
-      titular: "",
-      descripcion: "",
-      categoria: "",
-      autor: "",
-      fecha: "",
-      img: "",
-      url: "",
-      palabrasClave: [],
-      pais: "",
-      estado: "",
-      ciudad: "",
+      fuente: "Portafolio",
+      titular:
+        "¿Pensando en emprender?: cinco consejos para cuidar las finanzas de su negocio",
+      descripcion:
+        "Contar con la solvencia económica para asegurar la sostenibilidad de una empresa no siempre es tarea fácil. Tenga en cuenta estas recomendaciones.",
+      categoria: "Emprendimiento",
+      autor: "Portafolio Redacción",
+      fecha: "2023-11-23",
+      img:
+        "https://www.portafolio.co/files/article_new_multimedia/uploads/2023/11/23/655f7fde3e6e6.jpeg",
+      url:
+        "https://www.portafolio.co/emprendimiento/cinco-consejos-financieros-a-tener-en-cuenta-a-la-hora-de-emprender-592895",
+      palabrasClave: ["Emprendimiento", "Empresas", "Ideas de negocio"],
+      pais: "Colombia",
+      estado: "Risaralda",
+      ciudad: "Pereira",
     },
     {
       id: 42,
-      fuente: "Plantilla",
-      titular: "",
-      descripcion: "",
-      categoria: "",
-      autor: "",
-      fecha: "",
-      img: "",
-      url: "",
-      palabrasClave: [],
-      pais: "",
-      estado: "",
-      ciudad: "",
+      fuente: "El Tiempo",
+      titular:
+        "'Borrón y cuenta nueva 2.0', el proyecto de ley que busca ayudar a deudores morosos",
+      descripcion:
+        "La iniciativa busca la ampliación por un año más de una ley que benefició a deudores morosos.",
+      categoria: "Finanzas personales",
+      autor: "Fernando Umaña",
+      fecha: "2023-11-29",
+      img:
+        "https://www.eltiempo.com/files/article_main_1200/uploads/2023/11/20/655bff8fc721d.jpeg",
+      url:
+        "https://www.eltiempo.com/economia/finanzas-personales/borron-y-cuenta-nueva-2-0-el-proyecto-de-ley-que-buscaria-ayudar-a-los-deudores-830676",
+      palabrasClave: [
+        "Finanzas",
+        "Finanzas personales",
+        "Vida",
+        "Ingresos",
+        "Creditos",
+        "Morosos",
+      ],
+      pais: "Colombia",
+      estado: "Bogotá D.C.",
+      ciudad: "Bogotá D.C.",
     },
     {
       id: 43,
-      fuente: "Plantilla",
-      titular: "",
-      descripcion: "",
-      categoria: "",
-      autor: "",
-      fecha: "",
-      img: "",
-      url: "",
-      palabrasClave: [],
-      pais: "",
-      estado: "",
-      ciudad: "",
+      fuente: "El Tiempo",
+      titular:
+        "Los cursos del Sena que puede hacer los fines de semana: son gratuitos",
+      descripcion:
+        "La institución, además de carreras técnicas y tecnológicas, ofrece clases virtuales sin costo.",
+      categoria: "Educación",
+      autor: "Alejandro Victoria Tobón",
+      fecha: "2023-11-29",
+      img:
+        "https://www.eltiempo.com/files/article_main_1200/uploads/2023/11/29/6567525f06fcf.png",
+      url:
+        "https://www.eltiempo.com/vida/educacion/los-cursos-del-sena-que-puede-hacer-los-fines-de-semana-son-gratuitos-830542",
+      palabrasClave: ["Educación", "SENA", "Cursos virtuales", "Cursos cortos"],
+      pais: "Colombia",
+      estado: "Bogotá D.C.",
+      ciudad: "Bogotá D.C.",
     },
     {
       id: 44,
-      fuente: "Plantilla",
-      titular: "",
-      descripcion: "",
-      categoria: "",
-      autor: "",
-      fecha: "",
-      img: "",
-      url: "",
-      palabrasClave: [],
-      pais: "",
-      estado: "",
-      ciudad: "",
+      fuente: "El Tiempo",
+      titular:
+        "Cáncer: ¿cuál es el aporte de la IA en el diagnóstico y manejo de esta enfermedad?",
+      descripcion:
+        "Las herramientas digitales han permitido avanzar en los diagnósticos médicos.",
+      categoria: "Salud",
+      autor: "Luz Angela Dominguez Coral",
+      fecha: "2023-11-29",
+      img:
+        "https://www.eltiempo.com/files/article_main_1200/uploads/2023/11/28/6566401304a51.jpeg",
+      url:
+        "https://www.eltiempo.com/salud/cancer-cual-es-el-aporte-de-la-ia-en-el-diagnostico-y-manejo-de-esta-enfermedad-830255",
+      palabrasClave: [
+        "Cancer",
+        "Salud",
+        "Enfermedades",
+        "Inteligencia artificial",
+        "Herramientas digitales",
+      ],
+      pais: "Colombia",
+      estado: "Antioquia",
+      ciudad: "Medellín",
     },
     {
       id: 45,
-      fuente: "Plantilla",
-      titular: "",
-      descripcion: "",
-      categoria: "",
-      autor: "",
-      fecha: "",
-      img: "",
-      url: "",
-      palabrasClave: [],
-      pais: "",
-      estado: "",
-      ciudad: "",
+      fuente: "El Espectador",
+      titular:
+        "¿De dulce o de sal? Seis recetas para llenar de sabor el miércoles en la cena",
+      descripcion:
+        "Arroz con vegetales y salmón, alitas, torta de zanahoria con dulce de leche y albóndigas rellenas de queso, son nuestras propuestas para esta noche.",
+      categoria: "Gastronomia y recetas",
+      autor: "Redacción El Espectador",
+      fecha: "2023-11-29",
+      img:
+        "https://www.elespectador.com/resizer/sjDgNza2sWhwqv6dS2fhCOU22tA=/525x350/filters:quality(60):format(jpeg)/cloudfront-us-east-1.images.arcpublishing.com/elespectador/FSQ62T356JA2NPXIP5TDPFS7JM.jpg",
+      url:
+        "https://www.elespectador.com/gastronomia-y-recetas/de-dulce-o-de-sal-seis-recetas-para-llenar-de-sabor-el-miercoles-en-la-cena/",
+      palabrasClave: ["Comida sana", "Plato especial", "Salud", "Vida"],
+      pais: "Colombia",
+      estado: "Quindio",
+      ciudad: "Armenia",
     },
     {
       id: 46,
-      fuente: "Plantilla",
-      titular: "",
-      descripcion: "",
-      categoria: "",
-      autor: "",
-      fecha: "",
-      img: "",
-      url: "",
-      palabrasClave: [],
-      pais: "",
-      estado: "",
-      ciudad: "",
+      fuente: "El Espectador",
+      titular:
+        "Amazon lanza Q, el nuevo asistente de inteligencia artificial: así funciona",
+      descripcion:
+        "Esta semana se realiza el re:Invent 2023, el evento que reúne a los expertos en tecnología a nivel mundial para presentar las novedades de nube. Conozca los anuncios que ha hecho Amazon Web Services.",
+      categoria: "Redacción tecnología",
+      autor: "Redacción tecnológica",
+      fecha: "2023-11-29",
+      img:
+        "https://www.elespectador.com/resizer/baIL8tHhB4gw1D3ZJJvBJ2CAO54=/525x350/filters:quality(60):format(jpeg)/cloudfront-us-east-1.images.arcpublishing.com/elespectador/GWMXEG74QVB3FPAAHLGLNUZXSE.png",
+      url:
+        "https://www.elespectador.com/tecnologia/amazon-lanza-q-el-nuevo-asistente-de-inteligencia-artificial-para-las-empresas-asi-funciona/",
+      palabrasClave: [
+        "Tecnología",
+        "Amazon Web Service",
+        "Inteligencia artificial",
+        "Invención",
+        "Innovación",
+      ],
+      pais: "Estados Unidos",
+      estado: "Nevada",
+      ciudad: "Las Vegas",
     },
     {
       id: 47,
-      fuente: "Plantilla",
-      titular: "",
-      descripcion: "",
-      categoria: "",
-      autor: "",
-      fecha: "",
-      img: "",
-      url: "",
-      palabrasClave: [],
+      fuente: "El Espectador",
+      titular:
+        "ChatGPT: así fue como llevó a Google a modificar su motor de búsqueda",
+      descripcion:
+        "La irrupción de ChatGPT en noviembre de 2022 modificó las búsquedas en internet y obligó a Google que domina el sector desde hace quince años a acelerar la integración de esta herramienta. Entrevista de la agencia AFP con Kent Walker, director de Asuntos Globales del gigante estadounidense.",
+      categoria: "Tecnología",
+      autor: "Agencia AFP",
+      fecha: "2023-11-29",
+      img:
+        "https://www.elespectador.com/resizer/orOHoSA6diVY_IdO9-BBcirizxw=/525x350/filters:quality(60):format(jpeg)/cloudfront-us-east-1.images.arcpublishing.com/elespectador/GTZURLJ7RRC5JDYTWIWRPUGIMA.jpeg",
+      url:
+        "https://www.elespectador.com/tecnologia/chatgpt-asi-fue-como-llevo-a-google-a-modificar-su-motor-de-busqueda/",
+      palabrasClave: [
+        "Tecnología",
+        "ChatGPT",
+        "Inteligencia Artificial",
+        "Google",
+        "Navegadores",
+      ],
       pais: "",
       estado: "",
       ciudad: "",
