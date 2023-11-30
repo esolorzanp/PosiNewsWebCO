@@ -69,9 +69,9 @@ const dataBase = {
         "https://www.semana.com/resizer/lYU6vWLYdOzfr3uXUdE9Bf_HpOk=/1280x720/smart/filters:format(jpg):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/semana/L3OVGK7PLFB7HDWRYGIR3EGTY4.jpg",
       url:
         "https://www.semana.com/como/articulo/estos-son-los-usos-caseros-que-se-le-pueden-dar-a-la-cascara-de-la-cebolla/202313/",
-      pais: "",
-      estado: "",
-      ciudad: "",
+      pais: "Colombia",
+      estado: "Bogotá D.C.",
+      ciudad: "Bogotá D.C.",
     },
     {
       id: 3,
@@ -87,9 +87,9 @@ const dataBase = {
         "https://www.semana.com/resizer/gFh23bc-mqOi7URJiwpkrQbCtbo=/1280x720/smart/filters:format(jpg):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/semana/7MRH3MHN6ZFWPL3V3KS2IK747M.jpg",
       url:
         "https://www.semana.com/economia/empresas/articulo/primeros-constructores-de-vivienda-sin-cuota-inicial-entre-los-ganadores-del-premio-empresario-del-ano-2023/202300/",
-      pais: "",
-      estado: "",
-      ciudad: "",
+      pais: "Colombia",
+      estado: "Tolima",
+      ciudad: "Ibagué",
     },
     {
       id: 4,
@@ -105,9 +105,9 @@ const dataBase = {
         "https://www.semana.com/resizer/QqFUN2BD73TFdhhANWbSr49FIZg=/1280x720/smart/filters:format(jpg):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/semana/GJNJYOINKZHCTBIAGUTQAU6JGU.jpg",
       url:
         "https://www.semana.com/economia/empresas/articulo/produccion-de-cafe-tuvo-una-impresionante-recuperacion-en-octubre-segun-la-federacion-nacional-de-cafeteros/202324/",
-      pais: "",
-      estado: "",
-      ciudad: "",
+      pais: "Colombia",
+      estado: "Huila",
+      ciudad: "Neiva",
     },
     {
       id: 5,
@@ -123,9 +123,9 @@ const dataBase = {
         "https://www.semana.com/resizer/eEvkUrtxeAu1mGwr_fM9jwSqWqo=/1280x720/smart/filters:format(jpg):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/semana/YUKIGIGCCBBXDNSXZA455NVDRU.jpg",
       url:
         "https://www.semana.com/economia/articulo/en-canada-estan-buscando-colombianos-ofrecen-pasaje-de-avion-y-ayuda-para-establecerse-en-ese-pais/202327/",
-      pais: "",
-      estado: "",
-      ciudad: "",
+      pais: "Canadá",
+      estado: "Ontario",
+      ciudad: "Toronto",
     },
     {
       id: 6,
@@ -141,9 +141,9 @@ const dataBase = {
         "https://www.semana.com/resizer/H_QW1spYh9iWjnJrzhqvjWM_3yY=/1280x720/smart/filters:format(jpg):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/semana/BR2HTOLUJBBODM55RWTRNX5JSQ.png",
       url:
         "https://www.semana.com/deportes/articulo/max-verstappen-dio-catedra-en-la-pole-del-gp-de-brasil-asi-quedo-la-grilla-de-salida/202329/",
-      pais: "",
-      estado: "",
-      ciudad: "",
+      pais: "Brasil",
+      estado: "Sao Paulo",
+      ciudad: "Sao Paulo",
     },
     {
       id: 7,
@@ -159,9 +159,9 @@ const dataBase = {
         "https://www.semana.com/resizer/_s3fVO6M54GyTUBLK2k6ka0JYQw=/1280x720/smart/filters:format(jpg):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/semana/U4NAXLHZGBEILJ3QV2MOG2KFX4.jpeg",
       url:
         "https://www.semana.com/mejor-colombia/articulo/esta-es-la-estrategia-que-llevo-las-iniciativas-sociales-en-colombia-a-otro-nivel/202300/",
-      pais: "",
-      estado: "",
-      ciudad: "",
+      pais: "Colombia",
+      estado: "Atlántico",
+      ciudad: "Barranquilla",
     },
     {
       id: 8,
@@ -177,9 +177,9 @@ const dataBase = {
         "https://www.semana.com/resizer/_s3fVO6M54GyTUBLK2k6ka0JYQw=/1280x720/smart/filters:format(jpg):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/semana/U4NAXLHZGBEILJ3QV2MOG2KFX4.jpeg",
       url:
         "https://www.semana.com/mejor-colombia/articulo/dunkin-donuts-de-emprendimiento-familiar-a-una-franquicia-que-emplea-1200-jovenes/202342/",
-      pais: "",
-      estado: "",
-      ciudad: "",
+      pais: "Colombia",
+      estado: "Antioquia",
+      ciudad: "Medellín",
     },
     {
       id: 9,
@@ -318,9 +318,9 @@ const dataBase = {
         "https://www.elespectador.com/resizer/jIBtPJmL6TwWYm9fkpRY8S9Rmxo=/525x350/filters:quality(60):format(jpeg)/cloudfront-us-east-1.images.arcpublishing.com/elespectador/II2G65RJXRH27EQ37RX3H6UMDA.jpg",
       url:
         "https://www.elespectador.com/tecnologia/instagram-habilita-un-boton-antiacoso-como-funciona/",
-      pais: "",
-      estado: "",
-      ciudad: "",
+      pais: "Estados Unidos",
+      estado: "Distrito de Columbia",
+      ciudad: "Washington D.C.",
     },
     {
       id: 17,
