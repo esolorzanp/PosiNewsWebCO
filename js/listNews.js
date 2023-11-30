@@ -156,21 +156,27 @@ const renderTable = (data) => {
 
   let thCol1 = document.createElement("th");
   thCol1.innerHTML = "Fecha";
+  thCol1.className = "table__th";
   document.getElementById(thRow.id).appendChild(thCol1);
   let thCol2 = document.createElement("th");
   thCol2.innerHTML = "Titular";
+  thCol2.className = "table__th";
   document.getElementById(thRow.id).appendChild(thCol2);
   let thCol3 = document.createElement("th");
   thCol3.innerHTML = "Fuente";
+  thCol3.className = "table__th";
   document.getElementById(thRow.id).appendChild(thCol3);
   let thCol4 = document.createElement("th");
   thCol4.innerHTML = "Categoría";
+  thCol4.className = "table__th";
   document.getElementById(thRow.id).appendChild(thCol4);
   let thCol5 = document.createElement("th");
   thCol5.innerHTML = "Ciudad";
+  thCol5.className = "table__th";
   document.getElementById(thRow.id).appendChild(thCol5);
   let thCol6 = document.createElement("th");
   thCol6.innerHTML = "";
+  thCol6.className = "table__th";
   //thCol6.style.width = "200px";
   document.getElementById(thRow.id).appendChild(thCol6);
 
@@ -178,25 +184,32 @@ const renderTable = (data) => {
   data.map((e) => {
     let trRow = document.createElement("tr");
     trRow.id = `trRow${i}`;
+    trRow.className = "table__tr"
     document.getElementById(tTable.id).appendChild(trRow);
 
     let tdCol1 = document.createElement("td");
     tdCol1.innerHTML = e.fecha;
+    tdCol1.className = "table__td table__td--textAlingCentered";
     document.getElementById(trRow.id).appendChild(tdCol1);
     let tdCol2 = document.createElement("td");
     tdCol2.innerHTML = e.titular;
+    tdCol2.className = "table__td table__td--bigWidth";
     document.getElementById(trRow.id).appendChild(tdCol2);
     let tdCol3 = document.createElement("td");
     tdCol3.innerHTML = e.fuente;
+    tdCol3.className = "table__td table__td--textAlingCentered";
     document.getElementById(trRow.id).appendChild(tdCol3);
     let tdCol4 = document.createElement("td");
     tdCol4.innerHTML = e.categoria;
+    tdCol4.className = "table__td table__td--textAlingCentered";
     document.getElementById(trRow.id).appendChild(tdCol4);
     let tdCol5 = document.createElement("td");
     tdCol5.innerHTML = e.ciudad;
+    tdCol5.className = "table__td table__td--textAlingCentered";
     document.getElementById(trRow.id).appendChild(tdCol5);
     let tdCol6 = document.createElement("td");
     tdCol6.id = `tdCol6${i}`;
+    tdCol6.className = "table__td table__td--smallWidth";
     document.getElementById(trRow.id).appendChild(tdCol6);
     let btnVerMas = document.createElement("button");
     btnVerMas.id = `btn${i}`;

@@ -154,9 +154,12 @@ renderMessageError = () => {};
 renderMessageConfirm = () => {
   let pShowMessages = document.getElementById("show-messages");
   let pMessage = document.createElement("p");
-  pMessage.className = "";
+  pMessage.className = "message message__text message__text--success";
   pMessage.innerHTML = "Registro actualizado correctamente";
   pShowMessages.appendChild(pMessage);
+  setTimeout(() => {
+    pShowMessages.innerHTML = "";
+  }, 2000);
 };
 
 //console.log(JSON.parse(sessionStorage.news));

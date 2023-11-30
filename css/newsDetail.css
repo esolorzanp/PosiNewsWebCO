@@ -27,3 +27,21 @@
 .newDetail__button {
   margin: 15px;
 }
+.newDetail__message {
+  margin-bottom: 15px;
+}
+.message {
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+}
+.message__text {
+  font-weight: bold;
+  font-size: 24px;
+}
+.message__text--success {
+  color: #27a58e;
+}
+.message__text--error {
+  color: red;
+}
