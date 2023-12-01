@@ -88,6 +88,7 @@ body {
 .button {
   border: none;
   background-color: none;
+  border-radius: 10px;
   font-size: 18px;
   padding: 10px 25px;
 }
@@ -109,7 +110,7 @@ body {
   background-color: #1f8472;
 }
 .button--ligth {
-  border: 1px solid #efefef;
+  border: 1px solid #0a4899;
   background-color: #efefef;
   color: #0a4899;
 }

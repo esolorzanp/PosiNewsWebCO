@@ -34,9 +34,11 @@ const onClean = () => {
   document.getElementById("userInput").value = "";
   document.getElementById("passInput").value = "";
   document.getElementById("login__message").innerHTML = "";
+  /*
   document.getElementById("userInput").value =
     "esolorzanop@estudiantes.uniajc.edu.co";
   document.getElementById("passInput").value = "Solo2023";
+  */
   fieldUserIsValidated = true;
   fieldPassIsValidated = true;
 };

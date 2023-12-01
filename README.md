@@ -1,16 +1,20 @@
 # PosiNewsWebCO
 
 ## Descripción
-El proyecto PosiNewsWebCO es el desarrollo de un portal web que se interesa por presentar noticias cuyas características princiaples muestren un mensaje positivo, de alto impacto, de desarrollo humano, de felicidad para nuestros lectores. Este proyecto es realizado como una entrega final de la materia de Fundamentos WEB del programa de Ingeniería de Sistemas, de la facultad de Ingenierías de la Institución Universitaria Antonio José Camacho.
+En un mundo saturado de noticias que a menudo nos abruman, surge un rincón especialmente diseñado para iluminar tu día y renovar tu perspectiva. Bienvenido a PosiNewsWebCO, donde cada historia cuenta, no solo por su relevancia, sino por la inspiración que lleva consigo. ​
+
+Nos embarcamos en la misión de tejer un tapiz de noticias que no solo informen, sino que también alimenten tu espíritu. En este oasis digital, celebramos las victorias, resaltamos la bondad y damos voz a las narrativas que construyen un mundo más optimista.​
 
 ## Objetivo general
 Desarrollar un portal web orientado a un tema específico que comprenda varios de los temas vistos en el curso de Fundamentos WEB, que aplique las mejores prácticas para el desarrollo de páginas HTML, hojas de estilo css y de métodos en JavaScript.
 
 ## Objetivos específicos
-- Aplicar la metodología de HTML Semántico en las páginas HTML a desarrollar.
-- Aplicar la metodología de BEM en las hojas de estilo CSS y las páginas HTML que las utilizarán en la propiedad "class".
+- Realizar diseño de maquetación de cada una de las páginas, representando con cajas, los bloques y los elementos que componen las páginas HTML.
+- Aplicar la metodología de HTML Semántico en el desarrollo de las páginas HTML a desarrollar.
+- Aplicar la metodología de BEM en el desarrollo de las hojas de estilo CSS y las páginas HTML.
 - Aplicar el manejo de eventos con el uso del método addEventListener.
 - Aplicar el desarrollo de métodos que utilizan promesas y la instrucción setTimeOut para simular la respuesta de peticiones realizadas a un API.
+- Aplicar el uso de la herramienta GitHub creando un repositorio público para el proyecto, creando una rama para versionar las fases de cada proyecto e ir subiendo los elementos desarrollados en cada fase.
 
 ## Composición del proyecto
 El proyecto consta de tres páginas web:

@@ -1,22 +1,23 @@
-.list-news {
+.listNews {
 }
-.list-news__header,
-.list-news__filters,
-.list-news__news-table {
+.listNews__header,
+.listNews__filters,
+.listNews__messages,
+.listNews__news-table {
   border-radius: 10px;
 }
-.list-news__header {
+.listNews__header {
   background-color: #fff;
   border: 1px solid #efefef;
   height: 100px;
   display: flex;
   flex-direction: column;
 }
-.list-news__header--primary {
+.listNews__header--primary {
   border: 1px solid #0a4899;
   background-color: #0a4899;
 }
-.list-news__headerTitle {
+.listNews__headerTitle {
   height: 100px;
   text-align: center;
   line-height: 100px;
@@ -24,14 +25,14 @@
   color: #0a4899;
   font-weight: bold;
 }
-.list-news__headerTitle--primary {
+.listNews__headerTitle--primary {
   color: #ffffff;
 }
-.list-news__filters,
-.list-news__news-table {
+.listNews__filters,
+.listNews__news-table {
   margin-top: 10px;
 }
-.list-news__filters {
+.listNews__filters {
   border: 1px solid #efefef;
   background-color: #fff;
   height: 60px;
@@ -40,18 +41,26 @@
   justify-content: space-evenly;
   align-items: center;
 }
-.list-news__news-table {
+.listNews__messages {
+}
+.listNews__news-table {
   background-color: #ffffff;
 }
-.list-news__nav {
+.listNews__nav {
+  height: 65px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   padding-top: 15px;
 }
+.listNews__button {
+  margin-right: 15px;
+}
 
 .cargando {
+  height: 100px;
+  line-height: 100px;
   text-align: center;
   font-size: 20px;
   font-weight: bold;

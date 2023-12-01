@@ -2,7 +2,7 @@ const inputs = document.querySelectorAll(".field__input");
 const buttons = document.querySelectorAll(".button");
 
 if (sessionStorage.news !== undefined) {
-  console.log("recupera news desde newDetail...");
+  //console.log("recupera news desde newDetail...");
   const newSt = JSON.parse(sessionStorage.getItem("news"));
   dataBase.news = newSt.map((n) => {
     const newT = {};

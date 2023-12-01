@@ -1,5 +1,6 @@
-const sectionListNewsTable = document.querySelector("#list-news__news-table");
-const sectionListNewsNav = document.querySelector("#list-news__nav");
+const sectionListNewsMessages = document.querySelector("#listNews__messages");
+const sectionListNewsTable = document.querySelector("#listNews__news-table");
+const sectionListNewsNav = document.querySelector("#listNews__nav");
 
 const inputCategory = document.getElementById("input-category");
 const inputCountry = document.getElementById("input-country");
@@ -112,6 +113,7 @@ btnCleanFilters.addEventListener("click", () => {
  * https://makitweb.com/get-parameters-from-url-with-javascript/
  */
 const redirectNewsDetail = (x) => {
+  renderCargandoViewMore();
   return new Promise((resolve) => {
     setTimeout(() => {
       sessionStorage.setItem("news", JSON.stringify(dataBase.news));
@@ -141,8 +143,16 @@ const renderCargando = () => {
   sectionListNewsTable.appendChild(pCargando);
 };
 
+const renderCargandoViewMore = () => {
+  const pCargando = document.createElement("p");
+  pCargando.className = "cargando cargando--success";
+  pCargando.innerHTML = "Loading news ...";
+  sectionListNewsTable.innerHTML = "";
+  sectionListNewsTable.appendChild(pCargando);
+};
+
 const renderTable = (data) => {
-  const sectionTable = document.getElementById("list-news__news-table");
+  const sectionTable = document.getElementById("listNews__news-table");
 
   let tTable = document.createElement("table");
   tTable.id = "table";
@@ -184,7 +194,7 @@ const renderTable = (data) => {
   data.map((e) => {
     let trRow = document.createElement("tr");
     trRow.id = `trRow${i}`;
-    trRow.className = "table__tr"
+    trRow.className = "table__tr";
     document.getElementById(tTable.id).appendChild(trRow);
 
     let tdCol1 = document.createElement("td");
@@ -225,24 +235,25 @@ const renderTable = (data) => {
 };
 
 const renderTableFooter = (info) => {
-  console.log("iniciando renderTableFooter...");
-  const nav = document.getElementById("list-news__nav");
+  //console.log("iniciando renderTableFooter...");
+  const nav = document.getElementById("listNews__nav");
   nav.innerHTML = "";
   if (info.page > 0) {
     const btnPrevious = document.createElement("button");
     btnPrevious.id = "btnPrevious";
-    btnPrevious.className = `button button--ligth btn`;
+    btnPrevious.className = `listNews__button button button--ligth btn`;
     btnPrevious.innerHTML = `<i id="btnPrevious" class="fa-solid fa-chevron-up" style="color: #0a4899;"></i>`;
     nav.appendChild(btnPrevious);
   }
   if (info.page < info.totPages - 1) {
     const btnNext = document.createElement("button");
     btnNext.id = "btnNext";
-    btnNext.className = `button button--ligth btn`;
+    btnNext.className = `listNews__button button button--ligth btn`;
     btnNext.innerHTML = `<i id="btnNext" class="fa-solid fa-chevron-down" style="color: #0a4899;"></i>`;
     nav.appendChild(btnNext);
   }
   let pTxtPage = document.createElement("p");
+  //pTxtPage.className = "listNews__pages";
   pTxtPage.innerHTML = `${info.page + 1} de ${info.totPages}`;
   nav.appendChild(pTxtPage);
 };
@@ -250,7 +261,7 @@ const renderTableFooter = (info) => {
 if (sessionStorage.success !== undefined) {
   if (sessionStorage.success) {
     if (sessionStorage.news !== undefined) {
-      console.log("recupera news desde listNews...");
+      //console.log("recupera news desde listNews...");
       const newSt = JSON.parse(sessionStorage.getItem("news"));
       dataBase.news = newSt.map((n) => {
         const newT = {};
